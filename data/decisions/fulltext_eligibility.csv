@@ -1,0 +1,57 @@
+openalex_id,source,decision,note
+W7162626353,database,INC,
+W4400878080,database,INC,
+W4394769383,database,INC,
+W4389524488,database,INC,
+W7169577568,database,INC,
+W7167484449,database,INC,
+W7125019428,database,INC,
+W4414276135,database,INC,
+W7131081022,database,INC,
+W7160231790,database,INC,
+W7215051543,database,INC,
+W7128480797,database,INC,
+W7207876777,database,INC,
+W7202145813,database,INC,
+W7166819975,database,INC,
+W7127947778,database,INC,
+W7127419093,database,INC,
+W7164806010,database,INC,
+W4415923903,database,INC,
+W4411721803,database,INC,
+W7163549035,database,INC,not retrieved (no abstract or full text accessible)
+W7169832189,database,NR,
+W7130829146,database,NR,
+W7163804966,database,NR,
+W4402115786,database,NR,
+W4404724144,database,NR,excluded with reason
+W4403317951,database,EC5,"UIST poster, earlier version of the TOCHI article"
+W7202273573,database,EC3,
+W7221152725,database,EC3,
+W7204182460,database,EC3,
+W7163693454,database,EC3,
+W7134061324,database,EC3,
+W7125979146,database,EC3,
+W7123661621,database,EC3,
+W4415709066,database,EC3,
+W4411271549,database,EC3,
+W4411233861,database,EC3,
+W4411359990,database,EC3,
+W4409163756,database,EC3,
+W4416429199,database,EC3,
+W7220194038,database,EC4,
+W7215413837,database,EC4,
+W7106131171,database,EC4,
+W4411902413,database,EC4,
+W4410776557,database,EC4,
+W7160146226,database,EC4,
+W7168249476,database,EC6,
+W4400484796,citation_search,INC,TestGen-LLM at Meta
+W4388483618,citation_search,EC4,"Feldt et al. 2023, vision paper with an informal demonstration"
+W7168712004,citation_search,EC4,"Enoiu & Feldt 2026, conceptual taxonomy, no evaluation"
+W4405717944,citation_search,EC3,Cypress Copilot
+W4414275946,citation_search,EC3,"Andre & Alves 2025, testers only rate suites"
+W4414984180,citation_search,EC3,"IGEX, fully automated"
+W4411449925,citation_search,EC3,automated soap opera testing
+W4402218589,citation_search,EC6,"Kashef, human role not described"
+W7169844650,citation_search,NR,no abstract; PDF without text layer at search time (arXiv version appeared later)

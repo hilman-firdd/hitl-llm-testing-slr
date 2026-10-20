@@ -1,0 +1,41 @@
+{
+ "db_identified": 192,
+ "duplicates": 4,
+ "screened": 188,
+ "excluded_ta": 141,
+ "ta_breakdown": {
+  "EC1": 99,
+  "EC2": 1,
+  "EC3": 6,
+  "EC4": 35,
+  "I": 10,
+  "M": 37
+ },
+ "sought": 47,
+ "not_retrieved": 5,
+ "assessed": 42,
+ "excluded_full": {
+  "EC3": 13,
+  "EC4": 6,
+  "EC5": 1,
+  "EC6": 1
+ },
+ "eligible_db": 21,
+ "sb_identified": 110,
+ "sb_excluded_title": 101,
+ "sb_sought": 9,
+ "sb_not_retrieved": 1,
+ "sb_assessed": 8,
+ "sb_excluded": {
+  "EC3": 4,
+  "EC4": 2,
+  "EC6": 1
+ },
+ "sb_eligible": 1,
+ "eligible_total": 22,
+ "below_qa": 2,
+ "included": 20,
+ "qa_mean": 4.42,
+ "qa_min": 3.0,
+ "qa_max": 6.0
+}

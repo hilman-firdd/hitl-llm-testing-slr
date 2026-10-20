@@ -1,0 +1,7 @@
+date,source,query_or_seed,filters,results
+2026-10-20,OpenAlex (title and abstract),data/search/openalex_oql.txt,2021-2026; article or conference paper,192
+2026-10-20,OpenAlex citation search (backward),W7162626353,published 2021 or later,44
+2026-10-20,OpenAlex citation search (backward),W7169577568,published 2021 or later,13
+2026-10-20,OpenAlex citation search (forward),W4400878080,topic T10743 (Software Testing and Debugging Techniques),20
+2026-10-20,OpenAlex citation search (forward),W4394769383,,23
+2026-10-20,OpenAlex citation search (forward),W4389524488,,10

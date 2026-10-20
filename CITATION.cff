@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Replication package: A Systematic Literature Review of Human-in-the-Loop Software Testing with Large Language Models"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-20
+license: CC-BY-4.0
+authors:
+  - family-names: Firdaus
+    given-names: Hilman
+    affiliation: "Universitas Muhammadiyah Semarang"
+    orcid: "https://orcid.org/0009-0006-8820-3305"
+  - family-names: Sarasjati
+    given-names: Wendy
+    affiliation: "Universitas Muhammadiyah Semarang"
+    orcid: "https://orcid.org/0009-0009-8679-0050"
+  - family-names: Marutho
+    given-names: Dhendra
+    affiliation: "Universitas Muhammadiyah Semarang"
+    orcid: "https://orcid.org/0009-0004-2271-1767"
+  - family-names: Ilham
+    given-names: Ahmad
+    affiliation: "Universitas Muhammadiyah Semarang"
+    orcid: "https://orcid.org/0000-0001-5109-6258"
+keywords:
+  - systematic literature review
+  - human-in-the-loop
+  - large language models
+  - software testing
+  - quality assurance

@@ -1,0 +1,11 @@
+#1 (LLM block)
+TITLE-ABS-KEY ( "large language model*" OR llm OR llms OR chatgpt OR "GPT-4" OR "GPT-3.5" OR "generative AI" OR copilot )
+
+#2 (testing block)
+TITLE-ABS-KEY ( "software testing" OR "test case*" OR "test generation" OR "unit test*" OR "test script*" OR "test automation" OR "test oracle*" OR "GUI testing" OR "test suite*" OR "acceptance test*" )
+
+#3 (human block)
+TITLE-ABS-KEY ( "human-in-the-loop" OR "human in the loop" OR "human oversight" OR "human-AI collaboration" OR "human-AI interaction" OR "human feedback" OR "developer feedback" OR "tester feedback" OR "user study" OR "manual review" OR "human review" OR "expert review" OR "interactive test*" OR "human evaluation" OR "human-centered" OR "human-centric" )
+
+#4 (combined set, the ONLY one to export)
+#1 AND #2 AND #3 AND PUBYEAR > 2020 AND PUBYEAR < 2027

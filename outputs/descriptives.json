@@ -1,0 +1,61 @@
+{
+ "n": 20,
+ "year": {
+  "2023": 1,
+  "2024": 3,
+  "2025": 5,
+  "2026": 11
+ },
+ "activity": {
+  "Test design from requirements": 7,
+  "Test ideation and exploration": 4,
+  "Test code generation and maintenance": 4,
+  "Practice and perception": 2,
+  "Test analytics and knowledge support": 2,
+  "Oracle and intent validation": 1
+ },
+ "roles": {
+  "Reviewer": 11,
+  "Specifier": 6,
+  "Explorer": 5,
+  "Oracle": 5,
+  "Teacher": 4,
+  "Editor": 3
+ },
+ "point": {
+  "After": 12,
+  "Loop": 10,
+  "Before": 6
+ },
+ "evaluation": {
+  "E1": 8,
+  "E2": 6,
+  "E3": 4,
+  "E4": 2
+ },
+ "evidence": {
+  "A": 11,
+  "F": 9
+ },
+ "country": {
+  "United States": 6,
+  "Brazil": 2,
+  "South Korea": 2,
+  "not reported": 2,
+  "United Kingdom": 1,
+  "Australia": 1,
+  "Japan": 1,
+  "India": 1,
+  "China": 1,
+  "Canada": 1,
+  "Switzerland": 1,
+  "Tunisia": 1
+ },
+ "roles_per_study": {
+  "1": 10,
+  "2": 7,
+  "3": 2,
+  "4": 1
+ },
+ "qa_mean": 4.42
+}
