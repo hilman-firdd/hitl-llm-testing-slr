@@ -4,3 +4,6 @@ backward,W7169577568,13,published 2021 or later,2026-10-20
 forward,W4400878080,20,topic T10743 (Software Testing and Debugging Techniques),2026-10-20
 forward,W4394769383,23,,2026-10-20
 forward,W4389524488,10,,2026-10-20
+targeted search,data/search/supplementary_oql.txt,20,practitioner or tester studies; 2021-2026; article or conference paper,2026-10-21
+backward,W7125019428,21,published 2021 or later,2026-10-21
+SOL search (DOI prefix 10.5753),data/search/sol_search.txt,41,LLM AND testing blocks in title/abstract; 2021-2026,2026-10-26

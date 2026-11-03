@@ -1,0 +1,5 @@
+Supplementary targeted search, OpenAlex, run 21 October 2026 (20 records):
+works where title-abstract has (("large language model*" or LLM or LLMs or ChatGPT or "generative AI" or Copilot) and ("software testing" or "test case*" or "test automation" or "testing practice*" or "testing professional*") and (practitioner* or "software tester*" or "testing professional*" or "QA engineer*" or "quality analyst*") and (interview* or survey or "focus group" or questionnaire or "observational study" or "case study")) and published since 2021 and type is (article or conference-paper)
+
+Backward citation search, run 21 October 2026: references of Santana et al. 2025 (W7125019428) published 2021 or later (21 records).
+Reason: the main human block missed practitioner studies that describe people as practitioners or testers (for example, Santos et al. 2024, ICST).

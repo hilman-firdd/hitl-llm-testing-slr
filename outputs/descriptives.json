@@ -1,61 +1,66 @@
 {
- "n": 20,
+ "n": 35,
  "year": {
   "2023": 1,
-  "2024": 3,
-  "2025": 5,
-  "2026": 11
+  "2024": 5,
+  "2025": 13,
+  "2026": 16
  },
  "activity": {
-  "Test design from requirements": 7,
+  "Test design from requirements": 14,
+  "Test code generation and maintenance": 8,
   "Test ideation and exploration": 4,
-  "Test code generation and maintenance": 4,
-  "Practice and perception": 2,
-  "Test analytics and knowledge support": 2,
-  "Oracle and intent validation": 1
+  "Practice and perception": 4,
+  "Test analytics and knowledge support": 3,
+  "Oracle and intent validation": 2
  },
  "roles": {
-  "Reviewer": 11,
-  "Specifier": 6,
-  "Explorer": 5,
-  "Oracle": 5,
-  "Teacher": 4,
-  "Editor": 3
+  "Reviewer": 24,
+  "Specifier": 18,
+  "Editor": 9,
+  "Oracle": 8,
+  "Explorer": 6,
+  "Teacher": 5
  },
  "point": {
-  "After": 12,
-  "Loop": 10,
-  "Before": 6
+  "After": 24,
+  "Loop": 20,
+  "Before": 18
  },
  "evaluation": {
-  "E1": 8,
-  "E2": 6,
-  "E3": 4,
-  "E4": 2
+  "E1": 11,
+  "E2": 13,
+  "E3": 6,
+  "E4": 5
  },
  "evidence": {
-  "A": 11,
-  "F": 9
+  "F": 25,
+  "A": 10
  },
  "country": {
-  "United States": 6,
-  "Brazil": 2,
+  "United States": 9,
+  "Brazil": 6,
+  "India": 2,
   "South Korea": 2,
+  "Canada": 2,
+  "Switzerland": 2,
   "not reported": 2,
   "United Kingdom": 1,
   "Australia": 1,
   "Japan": 1,
-  "India": 1,
   "China": 1,
-  "Canada": 1,
-  "Switzerland": 1,
-  "Tunisia": 1
+  "Tunisia": 1,
+  "Egypt": 1,
+  "Romania": 1,
+  "Netherlands": 1,
+  "Thailand": 1,
+  "Italy": 1
  },
  "roles_per_study": {
-  "1": 10,
-  "2": 7,
-  "3": 2,
-  "4": 1
+  "1": 13,
+  "2": 12,
+  "3": 7,
+  "4": 3
  },
- "qa_mean": 4.42
+ "qa_mean": 4.47
 }

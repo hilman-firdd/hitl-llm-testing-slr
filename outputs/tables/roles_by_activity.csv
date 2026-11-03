@@ -1,8 +1,8 @@
 activity,Specifier,Explorer,Reviewer,Editor,Oracle,Teacher
-Test design from requirements (7),1,0,5,2,0,1
+Test design from requirements (14),8,0,11,5,2,1
+Test code generation and maintenance (8),2,0,7,2,1,3
 Test ideation and exploration (4),3,3,1,1,3,0
-Test code generation and maintenance (4),0,0,4,0,1,2
-Practice and perception (2),1,1,1,0,0,0
-Test analytics and knowledge support (2),1,1,0,0,0,1
-Oracle and intent validation (1),0,0,0,0,1,0
-Total,6,5,11,3,5,4
+Practice and perception (4),3,2,2,1,0,0
+Test analytics and knowledge support (3),2,1,2,0,0,1
+Oracle and intent validation (2),0,0,1,0,2,0
+Total,18,6,24,9,8,5

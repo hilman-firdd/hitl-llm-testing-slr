@@ -4,18 +4,33 @@ lee2026,2026,Test ideation and exploration,Specifier; Reviewer; Editor; Oracle,L
 xiong2026,2026,Test design from requirements,Specifier,Before,E1,6.0,F,10.1145/3832108
 yang2023,2023,Test ideation and exploration,Specifier; Explorer; Oracle,Before; Loop; After,E1,6.0,F,10.18653/v1/2023.findings-emnlp.901
 alshahwan2024,2024,Test code generation and maintenance,Reviewer,After,E2,5.5,F,10.1145/3663529.3663839
+ardic2026,2026,Practice and perception,Specifier; Explorer; Reviewer; Editor,Before; Loop; After,E2,5.5,F,10.1007/s10664-026-10898-0
 becker2026,2026,Test code generation and maintenance,Reviewer; Oracle; Teacher,Loop; After,E2,5.5,F,10.1145/3803437.3805202
+haldar2025,2025,Test design from requirements,Specifier; Reviewer,Before; Loop; After,E1,5.5,F,10.1109/ACCESS.2025.3545882
+kitsios2025,2025,Test code generation and maintenance,Reviewer,After,E2,5.5,F,10.1109/ASE63991.2025.00165
+minani2026,2026,Test design from requirements,Specifier; Reviewer; Editor; Oracle,Before; Loop; After,E2,5.5,F,10.1016/j.iot.2026.102066
+ehab2026,2026,Test design from requirements,Specifier; Reviewer; Editor,Before; Loop; After,E2,5.0,F,10.3233/FAIA260745
 feng2026,2026,Test analytics and knowledge support,Specifier; Explorer,Before; After,E1,5.0,F,10.18653/v1/2026.acl-industry.2
+paduraru2025,2025,Test design from requirements,Specifier; Reviewer; Editor,Before; Loop; After,E2,5.0,F,10.5220/0013374400003890
+rastenis2026,2026,Test code generation and maintenance,Specifier; Reviewer; Editor,Before; After,E2,5.0,F,10.1145/3786583.3786918
+santana2025,2025,Practice and perception,Specifier; Reviewer,Before; Loop; After,E4,5.0,F,10.1109/AIware69974.2025.00018
+su2024,2024,Test ideation and exploration,Explorer; Oracle,After,E1,5.0,F,10.1145/3597503.3639157
+chauhan2026,2026,Test analytics and knowledge support,Reviewer; Teacher,Loop; After,E1,4.5,F,10.25103/jestr.192.20
 ganiyu2025,2025,Test design from requirements,Reviewer,Before,E3,4.5,F,10.1145/3734477.3734703
 lim2026,2026,Test design from requirements,Reviewer,After,E3,4.5,A,10.1109/ACCESS.2026.3730474
-minani2026,2026,Test design from requirements,Reviewer; Editor,After,E2,4.5,A,10.1016/j.iot.2026.102066
+lima2025,2025,Test design from requirements,Specifier; Reviewer,Before; Loop; After,E2,4.5,F,10.5753/sbqs.2025.15010
+santos2024,2024,Practice and perception,Specifier,Before,E4,4.0,F,10.1109/ICST60714.2024.00039
 shi2026,2026,Test ideation and exploration,Specifier; Explorer,Before; Loop,E1,4.0,A,10.1145/3817601
 tsukamoto2026,2026,Test design from requirements,Reviewer; Editor,After,E2,4.0,A,10.1007/978-3-032-29175-2_23
-chauhan2026,2026,Test analytics and knowledge support,Teacher,Loop,E1,3.5,A,10.25103/jestr.192.20
+alrabie2025,2025,Test analytics and knowledge support,Specifier; Reviewer,Before; After,E4,3.5,F,10.1145/3750069.3750103
+cunha2025,2025,Oracle and intent validation,Reviewer; Oracle,Loop,E3,3.5,A,10.23919/SoftCOM66362.2025.11197356
 hachaichi2025,2025,Test design from requirements,Reviewer,After,E3,3.5,A,10.1109/STA66620.2025.11364940
-hariharan2026,2026,Test design from requirements,Teacher,Loop,E2,3.5,A,10.1109/ICAIC67076.2026.11395683
-santana2025,2025,Practice and perception,Specifier; Reviewer,Before; Loop; After,E4,3.5,A,10.1109/AIware69974.2025.00018
+hariharan2026,2026,Test design from requirements,Oracle; Teacher,Loop; After,E2,3.5,F,10.1109/ICAIC67076.2026.11395683
+patel2025,2025,Test design from requirements,Reviewer,After,E2,3.5,A,10.1109/ICoDSE68111.2025.11351772
 silva2025,2025,Practice and perception,Explorer,Loop,E4,3.5,F,10.5753/ise.2025.14878
-su2024,2024,Test ideation and exploration,Explorer; Oracle,After,E1,3.5,A,10.1145/3597503.3639157
+wu2026,2026,Test code generation and maintenance,Specifier; Reviewer; Editor,Before; Loop; After,E1,3.5,F,10.1145/3794763.3794797
 rumiantsev2025,2025,Test code generation and maintenance,Reviewer,After,E3,3.0,A,10.32782/it/2025-1-35
+santosjcs2024,2024,Test design from requirements,Specifier; Reviewer; Editor,Before; Loop,E4,3.0,F,10.5753/sbes.2024.3603
+tiwari2025,2025,Test code generation and maintenance,Teacher,Loop,E3,3.0,A,10.1109/FNWF66845.2025.11317278
 vijayamahantesh2026,2026,Test code generation and maintenance,Reviewer; Teacher,Loop,E2,3.0,A,10.1109/NQComp68334.2026.11497649
+warasart2026,2026,Test design from requirements,Specifier,Before,E1,3.0,A,10.1109/ICTechED69022.2026.11682881

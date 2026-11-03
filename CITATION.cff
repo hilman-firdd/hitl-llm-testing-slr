@@ -2,8 +2,10 @@ cff-version: 1.2.0
 message: "If you use this dataset or code, please cite it as below."
 title: "Replication package: A Systematic Literature Review of Human-in-the-Loop Software Testing with Large Language Models"
 type: dataset
+repository-code: "https://github.com/hilman-firdd/hitl-llm-testing-slr"
+abstract: "Data, decisions, extraction sheet, and Python scripts that reproduce every count, table, and figure of the systematic literature review on human-in-the-loop software testing with large language models (35 included studies)."
 version: 1.0.0
-date-released: 2026-10-20
+date-released: 2026-11-03
 license: CC-BY-4.0
 authors:
   - family-names: Firdaus

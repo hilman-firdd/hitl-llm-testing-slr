@@ -4,3 +4,6 @@ __pycache__/
 venv/
 .DS_Store
 ~$*.xlsx
+data/scopus/*.csv
+outputs/scopus_new_records.csv
+outputs/scopus_check.json

@@ -1,0 +1,4 @@
+SBC OpenLib (SOL) completeness search, run 26 October 2026 through OpenAlex.
+Query (titles and abstracts, 2021-2026): ("large language model" OR "large language models" OR LLM OR LLMs OR ChatGPT OR "GPT-4" OR "generative AI" OR Copilot) AND ("software testing" OR "test case" OR "test cases" OR "test generation" OR "unit test" OR "unit tests" OR "test script" OR "test automation" OR "test oracle" OR "GUI testing" OR "test suite" OR "acceptance test")
+Filter: doi_starts_with:10.5753 (Brazilian Computer Society DOIs; covers SOL proceedings and SBC journals).
+Results: 41 records (decisions in data/decisions/sol_title_abstract_screening.csv). No human block was used, so records whose abstract describes no human action in the workflow were excluded at title/abstract as EC6.

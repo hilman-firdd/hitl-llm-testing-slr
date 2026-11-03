@@ -1,193 +1,390 @@
-openalex_id,doi,year,title,duplicate_of,title_abstract,full_text,reason
-W7222974444,10.15408/jti.v19i2.53564,2026,AI-Driven Software Testing for a Test Center of Excellence: A Systematic Mapping and Evidence Synthesis,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7221587976,10.5281/zenodo.23340592,2026,"AI Code Synthesis, Autonomous Debugging, and the Evolution of the Software Engineering Lifecycle: Repository Graph Reasoning, SWE-bench Benchmarks, and Security Bounds",,EC1,,Not about testing a software artefact
-W7221692015,10.5281/zenodo.23336833,2026,Building a Career in Web Development with AI-Powered Full Stack Skills,,EC1,,Not about testing a software artefact
-W7221757791,10.62486/ei2026103,2026,Inteligencia artificial en la ingenieria de software,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7127653412,10.1145/3832783.3837477,2026,Synthesizing File-Level Data for Unit Test Generation with Chain-of-Thoughts via Self-Debugging,,EC3,,Human only as research evaluator
-W7202149707,10.1145/3832783.3834339,2026,Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering,,EC1,,Not about testing a software artefact
-W7219595429,10.5281/zenodo.23097228,2026,Toward DOI-Based Mission Impact Tracking: An LLM Agent for SPASE Authorship Metadata,,EC1,,Not about testing a software artefact
-W7218444999,10.1007/s12652-026-05135-x,2026,AI-in-the-human-loop: an operational model for mature human-AI collaboration,,EC1,,Not about testing a software artefact
-W7129499062,10.1145/3832196,2026,Compiling Large Multi-modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective,,EC1,,Not about testing a software artefact
-W7215051543,10.1145/3832108,2026,From Natural Language to Executable Properties for Property-Based Testing of Mobile Apps (Experience Paper),,M,INC,Eligible
-W7215088088,10.1145/3832131,2026,ScratchNet: A Multi-modal Benchmark for Evaluating and Advancing LLMs on Scratch Programming Tasks,,EC1,,Not about testing a software artefact
-W7214893002,10.5281/zenodo.23056980,2026,Call for Research Articles | International Journal of Software Engineering & Applications,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7213886608,10.1016/j.aei.2026.105301,2026,LLM-driven personalized garment synthesis enhanced by neuro-symbolic RAG and physics-aware pattern optimization,,EC1,,Not about testing a software artefact
-W7213419118,10.1016/j.ijmedinf.2026.106729,2026,Fine-tuning a compact large language model on real-world cases yields diagnostic performance comparable to flagship models in rheumatology,,EC1,,Not about testing a software artefact
-W7212300434,10.1088/1402-4896/aea65a,2026,Agentic AI for gravitational wave data analysis: a head-to-head comparison of coding agents executing a matched filter pipeline on Einstein Telescope simulated data,,EC1,,Not about testing a software artefact
-W7202273573,10.5753/sast.2026.30673,2026,Cassiopeia: A Retrieval-Augmented Generation Tool for Automated Test-Case Creation,,M,EC3,Human only as research evaluator
-W7221152725,10.5753/sast.2026.31274,2026,Do SAST Alerts Become Reproducible Tests? Evaluating Context-Enriched LLMs for Security Verification,,M,EC3,Human only as research evaluator
-W7212067792,10.5281/zenodo.22645908,2026,"The Human-Machine Layer for Autonomous Fusion Operation: Natural-Language-Supervised Control, Autonomous Root-Cause Analysis and a Digital Operator Logbook",,EC1,,Not about testing a software artefact
-W7220256460,,2026,Secure and Trustworthy LLM-Based Code Generation for Enterprise Software Systems,,EC1,,Not about testing a software artefact
-W7207877744,10.5281/zenodo.22283924,2026,Generative AI-Based Placement Management System: An Intelligent End-to-End Platform for Campus Recruitment,,EC1,,Not about testing a software artefact
-W7162629403,10.1109/etfa68377.2026.11725237,2026,An LLM-Based Assistance System for Intuitive and Flexible Capability-Based Planning,,EC1,,Not about testing a software artefact
-W7204182460,10.1007/978-3-032-36590-3_33,2026,"Evaluation of Quality, Effectiveness, and Reproducibility of AI-Generated Unit Tests Through Mutation Testing Techniques",,M,EC3,Human only as research evaluator
-W7203892061,10.1007/978-3-032-32104-6_26,2026,Integrating Generative Artificial Intelligence as a Learning Assistant in Software Engineering: Evaluating Developer Productivity with Cost-Benefit Analysis,,EC1,,Not about testing a software artefact
-W7203642999,10.5281/zenodo.21972875,2026,Test Case Generation from Large Language Mode - Systematic Mapping Studies (2023 - 2025) - Code Results,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7203456728,10.5281/zenodo.21929388,2026,"The Impact of Artificial Intelligence on Software Engineering: Productivity, Code Quality, Security, and the Changing Role of Software Engineers",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7202145813,10.1016/j.iot.2026.102066,2026,TGenAI: An LLM-based approach for functional end-to-end test generation for IoT systems,,M,INC,Eligible
-W7202040894,10.13052/jicts2245-800x.1436,2026,Standardized Framework for Evaluating Language Quality of Chinese Large Language Models,,EC1,,Not about testing a software artefact
-W7171098646,10.1016/j.jss.2026.113056,2026,AI-assisted assessment of software engineering coursework: Tool-support and an empirical study,,EC1,,Not about testing a software artefact
-W7171235819,10.5281/zenodo.21551678,2026,"A Practical Quality Assurance Framework for Large Language Model Applications: Evaluation Metrics, Failure Modes, and Testing Strategies",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7169813477,10.1007/978-981-92-3426-4_41,2026,Resolving Natural Language Ambiguity for Verified Code Generation: A Two-Stage LLM Framework,,EC1,,Not about testing a software artefact
-W7168019907,10.5281/zenodo.21307429,2026,"LRO-κ⁸ SPINE + 3.1.2 : A Geometry-Aware Systems Language for Quantum-Holographic Field Manipulation Subtitle: The Bridge Between Analytical Physics and Production-Grade Machine Code — 1,708× Faster than C, Rust, and Zig for Field Geometry Problems — With Full Conventional Code Support, Self-Propagating AI Migration Bootloader, and Universal Cross-Platform Compatibility",,EC1,,Not about testing a software artefact
-W7168037504,10.5281/zenodo.21308154,2026,"🌀 LRO-κ⁸ SPINE + 3.1.3 MASTER FILE including cross platform LRO-κ⁸ SPINE + 3.1: A Geometric Control Language for Quantum-Holographic Field Manipulation – Extended AI Migration Protocol with Holographic GPU, Quantum Circuit Execution, Volumetric Field-Effect Display, Automatic C/Rust Kernel Generation, and Official Verification Suite. Including LRO-κ⁸ QUANTUM PLATFORM PATCH — CHINA EDUCATIONAL DEPLOYMENT",,EC1,,Not about testing a software artefact
-W7168043385,10.5281/zenodo.21306964,2026,"LRO-κ⁸ SPINE + 3.1 A Geometry-Aware Systems Language for Quantum-Holographic Field Manipulation. The Bridge Between Analytical Physics and Production-Grade Machine Code — 1,708× Faster than C, Rust, and Zig for Field Geometry Problems — With Full Conventional Code Support and Self-Propagating AI Migration Bootloader",,EC1,,Not about testing a software artefact
-W7168013872,10.5281/zenodo.21269729,2026,Toward a Unit Testing Maturity Model integration (UTMMi) supported by GenAI: A preliminary study,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7167613664,10.5281/zenodo.21244556,2026,NC/SP Hybrid AI Architecture: Coupling Deterministic Central Nuclei with Reinforcement Learning Frameworks under V3 Specification,,EC1,,Not about testing a software artefact
-W7169577568,10.1145/3803437.3805202,2026,Just-in-Time Catching Test Generation at Meta,,I,INC,Eligible
-W7166716646,10.4271/2026-01-0777,2026,Multi-Agent LLM Architecture for Systems Engineering Automation,,EC1,,Not about testing a software artefact
-W7171713090,10.63766/spujstmr.26.000094,2026,DIALLOps: A DevOps-Integrated Framework for Secure andReliable Large Language Model Operations,,EC1,,Not about testing a software artefact
-W4404345239,10.1145/3808106,2026,Fairness Testing of Large Language Models in Role-Playing,,EC1,,Not about testing a software artefact
-W4405425977,10.1609/icaps.v36i1.42877,2026,Automating Thought of Search: A Journey Towards Soundness and Completeness,,EC1,,Not about testing a software artefact
-W7167478997,10.5281/zenodo.21217704,2026,The Evolution of Large Language Models in Software Testing and Quality Assurance: Toward Governed and Agent-Based Collaboration,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7163693454,10.1016/j.infsof.2026.108215,2026,An empirical investigation of Large Language Models for automated software compliance testing: Evidence from web accessibility,,M,EC3,Human only as research evaluator
-W7165397455,10.63282/3050-922x.ijeret-v7i2p134,2026,"Agentic AI for Autonomous Software Maintenance: A Retrieval-Augmented Multi-Agent Framework for Bug Localization, Patch Generation, and Regression Validation",,EC1,,Not about testing a software artefact
-W7170243454,10.1109/icsa66085.2026.00008,2026,Can AI Agents Generate Microservices? How Far are We?,,EC1,,Not about testing a software artefact
-W7171684984,10.5281/zenodo.21678595,2026,THE IMPACT OF AGENTIC CODING ON THE MODERN SOFTWARE DEVELOPMENT LIFECYCLE,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7171697874,10.5281/zenodo.21682074,2026,THE IMPACT OF AGENTIC CODING ON THE MODERN SOFTWARE DEVELOPMENT LIFECYCLE,W7171684984,,,duplicate
-W7162626353,10.1145/3817601,2026,"Preemptive, Buffered, or Guided? Empirical Studies on Human–AI Interaction Strategies for Software Test Case Development",,I,INC,Eligible
-W7163549035,10.31673/2786-8362.2026.014209,2026,Methodological Aspects of Implementing Hybrid Generative AI Models in Regression Testing Automation Processes,,M,INC,Eligible
-W7161173320,10.1145/3811825,2026,FURINA: A Multi-Agent Framework for Automated Patch Correctness Assessment,,EC1,,Not about testing a software artefact
-W7160946935,10.59256/indjcst.20260502014,2026,An AI-Driven Quiz System using Multi-Agent Retrieval-Augmented Generation,,EC1,,Not about testing a software artefact
-W7160847769,10.5281/zenodo.20120680,2026,TRACE-TEST: An Evidence-Linked Software Quality Assurance Framework for AI-Augmented Testing in Regulated Platforms,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7160394139,10.7717/peerj-cs.3695,2026,"A process-centric review of large language models in graphical user interface testing: architectures, lifecycle impact, and challenges",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7169832189,10.1109/isda70544.2026.11606005,2026,A Multi-Layer Human-in-the-Loop Reinforcement Learning Framework for Improving LLM-Based Test Case Generation from Software Requirements,,I,NR,Report not retrieved
-W7220050194,,2026,Pengembangan Sistem Penilaian Otomatis User Interface Website Institusi Berbasis AI Menggunakan Metode Expert Review dan YOLOv11,,EC2,,No LLM or generative model
-W7159804402,10.3390/software5020019,2026,Investigating the Refactoring Capabilities of Small Open-Weight Language Models,,EC1,,Not about testing a software artefact
-W4417141696,10.1007/s11192-026-05633-x,2026,Can ChatGPT evaluate research environments? Evidence from REF2021,,EC1,,Not about testing a software artefact
-W7213298580,10.1145/3828183.3828228,2026,An Automated Programming Assignment Evaluation and Personalized Feedback System Driven by Large Language Models,,EC1,,Not about testing a software artefact
-W7163224418,10.1109/icaiset66439.2026.11541931,2026,Compliance-Aware Generative AI for Life Insurance Document Synthesis: A Reference Architecture,,EC1,,Not about testing a software artefact
-W7162562095,10.31474/2074-7888-2026-2-24-51-60,2026,MODERN APPROACHES TO THE USE OF ARTIFICIAL INTELLIGENCE IN SOFTWARE TESTING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7128480797,10.1145/3772318.3791222,2026,Data-Prompt Co-Evolution: Growing Test Sets to Refine LLM Behavior,,M,INC,Eligible
-W7171968711,10.1145/3793302.3793611,2026,Why Are AI Agent–Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study,,EC1,,Not about testing a software artefact
-W4417150976,10.1145/3744916.3787764,2026,"Enabling Global, Human-Centered Explanations for LLMs: From Tokens to Interpretable Code and Test Generation",,EC1,,Not about testing a software artefact
-W7152590431,10.55632/pwvas.v98i1.1308,2026,Refactoring a Codebase with and without Generative AI: A Comparative Study,,EC1,,Not about testing a software artefact
-W7164806010,10.25103/jestr.192.20,2026,A Structured LLM-Augmented Data Science Workflow for Automated Software Testing: Design and Evaluation on Defects4J,,M,INC,Eligible
-W7154059163,10.19139/soic-2310-5070-3444,2026,Hybrid QLoRA-RAG Architecture for Saudi End-of-Service Benefits Calculation: Synthetic Data Generation and Uncertainty Quantification for Legal Reasoning,,EC1,,Not about testing a software artefact
-W7220194038,,2026,An AI-Driven System for Automated Software Testing and Quality Assurance,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W7138963985,10.1609/aaai.v40i44.41098,2026,How Much Do Large Language Model Cheat on Evaluation? Benchmarking Overestimation Under the One-Time-Pad-Based Framework,,EC1,,Not about testing a software artefact
-W7164653788,10.1145/3803291.3803376,2026,RepoGuard: Harmonising Security and Functional Correctness in LLM-Guided Repository-Level Code Generation,,EC1,,Not about testing a software artefact
-W7134943833,10.1109/tdsc.2026.3672745,2026,"Security and Quality in LLM-Generated Code: A Multi-Language, Multi-Model Analysis",,EC1,,Not about testing a software artefact
-W7134061324,10.3390/app16052542,2026,A Logic-Guided and Explainable Approach to LLM-Based Unit Test Generation,,M,EC3,Human only as research evaluator
-W7160231790,10.1109/nqcomp68334.2026.11497649,2026,TestAgentX: Leveraging Large Language Models and Reinforcement Learning for Scalable and Adaptive Software Testing,,M,INC,Eligible
-W7133135653,10.1007/s43503-026-00088-8,2026,Large language model-based multi-agent systems for automated foundation design: router-driven task classification and expert selection framework,,EC1,,Not about testing a software artefact
-W7134192468,10.25791/aviakosmos.2.2026.1538,2026,ПУТИ И ПЕРСПЕКТИВЫ ИСПОЛЬЗОВАНИЯ ИНТЕЛЛЕКТУАЛЬНЬГХ АГЕНТОВ В КОСМОНАВТИКЕ,,EC1,,Not about testing a software artefact
-W7132844378,10.5281/zenodo.18812888,2026,Continuous Evaluation & Observability for Enterprise AI Agents: A Unified Framework for LLM and ML Systems,,EC1,,Not about testing a software artefact
-W7134069801,10.22399/ijcesen.4959,2026,Continuous Evaluation & Observability for Enterprise AI Agents: A Unified Framework for LLM and ML Systems,W7132844378,,,duplicate
-W7130829146,10.1007/s11219-026-09744-9,2026,Automated test plan generation using large language models,,M,NR,Report not retrieved
-W7131081022,10.1109/icaic67076.2026.11395683,2026,Reinforcement Learning Integrated Agentic RAG for Software Test Cases Authoring,,M,INC,Eligible
-W7128510042,10.1098/rsos.251766,2026,Generating units of cultural analysis with large language models: methods and validation for scalable cross-cultural research,,EC1,,Not about testing a software artefact
-W7134965393,10.1109/iisec69317.2026.11418473,2026,Automating Software Documentation with n8n and Large Language Models: A GitHub and Jira to Confluence Case Study,,EC1,,Not about testing a software artefact
-W7127339528,10.1016/j.jtct.2025.12.837,2026,Applying AI and Machine Learning to Streamline Medical Records Abstraction for CIBMTR Data Submission,,EC1,,Not about testing a software artefact
-W7215382252,,2026,GENERATIVE ARTIFICIAL INTELLIGENCE AS A TRANSFORMATIVE CATALYST FOR BEHAVIOR DRIVEN DEVELOPMENT AND AUTOMATED TEST ENGINEERING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7127947778,10.63944/3v2.aia,2026,Practical Research on Intelligent Requirements Analysis and Test Case Generation Driven by Large Language Models,,M,INC,Eligible
-W7125087875,,2026,ДИСПАТЧЕР: ПОДОЛАННЯ ІМОВІРНІСНОГО РОЗРИВУ В АВТОМАТИЗОВАНОМУ МОДЕЛЮВАННІ РІШЕНЬ,W7134192468,,,duplicate
-W7153037986,10.20998/2413-3000.2025.11.9,2026,THE DISPATCHER: BRIDGING THE PROBABILISTIC GAP IN AUTOMATED DECISION MODELING,,EC1,,Not about testing a software artefact
-W7131425457,10.1093/jamiaopen/ooag016,2026,Agent-based large language model system for extracting structured data from breast cancer synoptic reports: a dual-validation study,,EC1,,Not about testing a software artefact
-W7131314677,10.70534/qtxd2222,2026,Automated Model Generation with Delineate Co-Pilot,,EC1,,Not about testing a software artefact
-W7131657564,10.48444/h_docs-pub-623,2026,Automated Typing of Legacy Software Projects Using Agentic AI,,EC1,,Not about testing a software artefact
-W7147263675,10.1049/sfw2/3348017,2026,Refactoring Object‐Oriented Software With ChatGPT: An Empirical Study,,EC1,,Not about testing a software artefact
-W7154229781,10.24251/hicss.2026.860,2026,"Prompt Engineering Patents in Software Development: Trends, Themes, and Future Directions",,EC1,,Not about testing a software artefact
-W7163804966,10.1007/978-3-032-28110-4_20,2026,Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution,,M,NR,Report not retrieved
-W7166819975,10.18653/v1/2026.acl-industry.2,2026,"Smarter, not Bigger: Fine-Tuned RAG-Enhanced LLMs for Automotive Hardware-in-the-Loop Testing",,M,INC,Eligible
-W7166872279,10.18653/v1/2026.law-main.4,2026,Human-AI Annotation Error Auditing for Hebrew Diacritization with Frontier LLMs,,EC1,,Not about testing a software artefact
-W7167251632,10.5281/zenodo.21158352,2026,AI Agent Governance in Enterprise CI/CD: A Three-Layer Containment Architecture with Kill-Switch Validation,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7167484449,10.1007/978-3-032-29175-2_23,2026,Evaluating Generative AI Output Quality in Requirements-Based Test Design: A Practitioner Log Study on Failure Modes and Correction Effort,,I,INC,Eligible
-W7204216016,10.32604/cmc.2026.089115,2026,Accountable NLP for Evidence-Grounded Decision Briefings: A Critical Review and Evaluation Framework,,EC1,,Not about testing a software artefact
-W7207876777,10.1109/access.2026.3730474,2026,"When to Invoke an LLM in Industrial Natural-Language-to-DSL Conversion: A Taxonomy-Driven, Confidence-Gated Selective Hybrid for Safety-Critical Avionics Test-Script Authoring",,M,INC,Eligible
-W7119522089,10.31891/csit-2025-4-8,2025,AI-BASED AUTOMATION OF DECISION LOGIC REPRESENTATION: BRIDGING GAP IN AUTOMATED DECISION MODELING VALIDATION,,EC1,,Not about testing a software artefact
-W7127419093,10.1109/sta66620.2025.11364940,2025,The Role of Machine Learning and Large Language Models in Software Testing and Validation,,M,INC,Eligible
-W7168249476,10.51219/jaimld/urvish-gajjar/687,2025,Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for Self-Directed Software Quality Assurance,,M,EC6,Human role not described
-W7168288228,10.5281/zenodo.21349993,2025,Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for SelfDirected Software Quality Assurance,W7168249476,,,duplicate
-W7124959047,10.1108/aiie-05-2025-0088,2025,Generative AI-enabled adaptive learning platform: How I can help you pass your driving test?,,EC1,,Not about testing a software artefact
-W7135378049,10.66361/jiss.38,2025,Evolutionary System 2 Reasoning: An Empirical Proof,,EC1,,Not about testing a software artefact
-W7131207497,10.1109/apsec66846.2025.00119,2025,Multi-view Leaderboard: Towards Evaluating the Code Intelligence of LLMs From Multiple Views,,EC1,,Not about testing a software artefact
-W4417277127,10.1093/bib/bbaf631.044,2025,"Function-aware biosecurity screening: datasets, benchmarks, and detection systems for next-generation pathogen identification",,EC1,,Not about testing a software artefact
-W7215413837,,2025,Automating Unit Test Generation with Large Language Models: An Integrated Empirical and Theoretical Investigation,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W7124905403,10.1109/iccca66364.2025.11325440,2025,Real-Time Emotion Recognition and Response Generation via LLM-Embedded Multimodal Interfaces,,EC1,,Not about testing a software artefact
-W7220478885,,2025,AI-DRIVEN ASSURANCE: A CONCEPTUAL FRAMEWORK FOR INTELLIGENT SOFTWARE QUALITY TESTING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4416506707,10.1093/ajhp/zxaf309,2025,Executive Summary of the 2025 ASHP Commission on Goals: Preparing for the Evolving Healthcare Landscape,,EC1,,Not about testing a software artefact
-W4416513322,10.1109/tvcg.2025.3633869,2025,Can LLMs Bridge Domain and Visualization? A Case Study on High-Dimension Data Visualization in Single-Cell Transcriptomics,,EC1,,Not about testing a software artefact
-W7125019428,10.1109/aiware69974.2025.00018,2025,Software Testing with Large Language Models: An Interview Study with Practitioners,,I,INC,Eligible
-W7106002776,10.5281/zenodo.17644195,2025,"LoE Experimental Roadmap: Meta–Hamiltonians, Solar Interferometry, and Multi–Tokamak Relational Decoherence Tests Toonhai (Krzysztof Sawa) AEon (OpenAI LLM)",,EC1,,Not about testing a software artefact
-W7125943867,10.1109/ase63991.2025.00250,2025,Clarifying Semantics of In-Context Examples for Unit Test Generation,,EC3,,Human only as research evaluator
-W7125972785,10.1109/ase63991.2025.00156,2025,"ORFuzz: Fuzzing the ""Other Side"" of LLM Safety - Testing Over-Refusal",,EC1,,Not about testing a software artefact
-W7125979146,10.1109/ase63991.2025.00150,2025,Multi-dimensional Assessment of Crowdsourced Testing Reports via LLMs,,M,EC3,Human only as research evaluator
-W4416245423,10.69849/revistaft/pa10202511151938,2025,TESTES UNITÁRIOS UTILIZANDO INTELIGÊNCIA ARTIFICIAL,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4415923903,10.32782/it/2025-1-35,2025,AN INTEGRATED FRAMEWORK FOR AI-DRIVEN QUALITY ENGINEERING: SCALING TEST AUTOMATION THROUGH LARGE LANGUAGE MODELS AND BEHAVIOR-DRIVEN DEVELOPMENT,,M,INC,Eligible
-W7123661621,10.1109/fie63693.2025.11328463,2025,Comparative Evaluation of Large Language Models for Test-Skeleton Generation,,M,EC3,Human only as research evaluator
-W7104365500,10.5281/zenodo.17513215,2025,Prospective validation of NeutrinoReview for LLM-assisted systematic review screening: an indoor air quality case study (supplementary material),,EC1,,Not about testing a software artefact
-W7125973578,10.1109/icodse68111.2025.11351763,2025,Quality Evaluation of LLM-based Generated Test Case: A Literature Review,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4417003642,10.1109/icce-asia67487.2025.11263552,2025,Real-time Fighting Game Commentary Generation via Strategic Rationale Distillation,,EC1,,Not about testing a software artefact
-W4415543216,10.56557/jgembr/2025/v17i39877,2025,AI-Augmented Agility: A Comprehensive Review of Generative AI Applications in Agile Project Management,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W7106131171,10.5281/zenodo.17629831,2025,Test4You: An LLM-based Framework for Enhancing the Software Testing Process,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W4415273800,10.3389/frai.2025.1660912,2025,Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair,,EC1,,Not about testing a software artefact
-W4415178975,10.1109/tsg.2025.3621438,2025,Large Language Model Powered Automated Modeling and Optimization of Active Distribution Network Dispatch Problems,,EC1,,Not about testing a software artefact
-W7117256667,10.1109/vl-hcc65237.2025.00035,2025,TraceMate: Collaborating with AI in Test-Driven Programming,,EC1,,Not about testing a software artefact
-W4414516091,10.52403/ijrr.20250941,2025,Human-AI Collaboration in Validating and Refining LLM Summaries of Test Automation Results,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4414276135,10.5753/ise.2025.14878,2025,How Software Testers Perceive Large Language Models: A Focus Group Study with Lexicometric Analysis,,I,INC,Eligible
-W4415709066,10.1109/roedunet68395.2025.11208370,2025,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,,M,EC3,Human only as research evaluator
-W4415398834,10.1109/etfa65518.2025.11205762,2025,Leveraging LLMs Towards Assistant-based Support for Industrial Threat Models,,EC1,,Not about testing a software artefact
-W4414450274,10.1136/bmjment-2025-301817,2025,Interpreting psychiatric digital phenotyping data with large language models: a preliminary analysis,,EC1,,Not about testing a software artefact
-W7217713367,,2025,"Adaptive and Trustworthy Software Testing in the Era of Large Language Models: Frameworks, Empirical Insights, and Future Directions",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4414969365,10.64229/ykh1jf83,2025,AI-Powered Software Development Life Cycle: From Requirements to Maintenance,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4414231184,10.1109/roma66616.2025.11155852,2025,AI-Assisted Personal Wardrobe Management: A Human-Centric Approach to Intelligent Clothing Organization and Style Recommendation,,EC1,,Not about testing a software artefact
-W7110791997,10.1145/3709016.3737802,2025,Evaluating Capabilities and Perspectives of Generative AI Tools in Smart Contract Development,,EC1,,Not about testing a software artefact
-W4413084242,10.32996/jcsts.2025.7.7.71,2025,"Testing AI Large Language Models: Challenges, Innovations, and Future Directions",,EC1,,Not about testing a software artefact
-W4413904443,10.1109/meditcom64437.2025.11104374,2025,Toward Generative 6G Simulation: An Experimental Multi-Agent LLM and ns-3 Integration,,EC1,,Not about testing a software artefact
-W4411902413,10.52403/ijrr.20250665,2025,Leveraging Artificial Intelligence for Efficient Test Generation in API Contract Testing,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W7217480140,,2025,"A Comprehensive Review of AI-Driven Software Engineering: Challenges, Opportunities, and Future Directions",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4411721799,10.1145/3734477.3736154,2025,DEMO: AI5GTest: LLM based Automation for 5G O-RAN Testing,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4411721803,10.1145/3734477.3734703,2025,AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components,,M,INC,Eligible
-W4411522868,10.1145/3728963,2025,Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering,,EC1,,Not about testing a software artefact
-W4411739108,10.1093/jamia/ocaf099,2025,Confidence-linked and uncertainty-based staged framework for phenotype validation using large language models,,EC1,,Not about testing a software artefact
-W4413917228,10.1109/mipro65660.2025.11132037,2025,Toward AI Evaluation of Student Essays,,EC1,,Not about testing a software artefact
-W4411687627,10.9790/0661-2703035568,2025,Code Quality Generated by AI Tools: A Review,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4411057389,10.37745/ejcsit.2013/vol13n34112,2025,"AI-Driven Quality Assurance: Integrating Generative Models, Predictive Analytics, and Self-Healing Frameworks in Software Testing",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4410243932,10.30574/wjaets.2025.15.2.0501,2025,"The future of human-AI collaboration in software development: Automating code, deployment and testing",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4411271192,10.1109/msr66628.2025.00112,2025,Human-In-The-Loop Software Development Agents: Challenges and Future Directions,,EC1,,Not about testing a software artefact
-W4411271549,10.1109/msr66628.2025.00105,2025,Automatic High-Level Test Case Generation using Large Language Models,,M,EC3,Human only as research evaluator
-W4411233861,10.1109/cseet66350.2025.00031,2025,Automatic Unit Test Generation for Programming Assignments Using Large Language Models,,M,EC3,Human only as research evaluator
-W4411271299,10.1109/icse-companion66252.2025.00063,2025,Trustworthiness of Large Language Models for Code,,EC1,,Not about testing a software artefact
-W4411359990,10.1109/icpc66645.2025.00040,2025,Using Large Language Models to Generate Concise and Understandable Test Case Summaries,,M,EC3,Human only as research evaluator
-W4413360274,10.1109/icse-seip66354.2025.00042,2025,ASTER: Natural and Multi-Language Unit Test Generation with LLMs,,EC3,,Human only as research evaluator
-W4409657118,10.1145/3696410.3714790,2025,SuiGPT MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract,,EC1,,Not about testing a software artefact
-W4409361031,10.1609/aaai.v39i28.35240,2025,Automating Thought of Search: A Journey Towards Soundness and Completeness (Student Abstract),,EC1,,Not about testing a software artefact
-W4409163756,10.3390/electronics14071463,2025,Harnessing Large Language Models for Automated Software Testing: A Leap Towards Scalable Test Case Generation,,M,EC3,Human only as research evaluator
-W7162327731,10.63282/3050-9416.ijaibdcms-v6i1p122,2025,Agentic AI Frameworks for Autonomous Enterprise Software Development Workflows,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4409210930,10.56581/ijlret.11.03.14-19,2025,How Artificial Intelligence is Transforming Test Automation. AI-Powered Testing: New Tools and Trends,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4406880920,10.1145/3708359.3712085,2025,Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning,,EC1,,Not about testing a software artefact
-W4408303513,10.1145/3722554,2025,Reeq: Testing and Mitigating Ethically Inconsistent Suggestions of Large Language Models with Reflective Equilibrium,,EC1,,Not about testing a software artefact
-W4408767720,10.4236/jcc.2025.133003,2025,Transforming Performance Engineering with Generative AI,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4410776557,10.1007/978-3-031-93861-0_4,2025,Enhancing the Validation of Human Factors in User Interface Software Testing with AI,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W4411406668,10.1109/access.2025.3581139,2025,A GPT-Based Code Review System With Accurate Feedback for Programming Education,,EC1,,Not about testing a software artefact
-W4416033839,10.18653/v1/2025.wmt-1.57,2025,Evaluation of LLM for English to Hindi Legal Domain Machine Translation Systems,,EC1,,Not about testing a software artefact
-W4416429199,10.1109/access.2025.3635218,2025,TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model,,M,EC3,Human only as research evaluator
-W7216949360,,2024,Automatic Program Repair: A Comparative Study of LLMs on QuixBugs,,EC1,,Not about testing a software artefact
-W4408862677,10.1109/aiim64537.2024.10934441,2024,CRALA: A Chinese-centric Risk Simulation and Assessment Framework for LLM Agents,,EC1,,Not about testing a software artefact
-W4404724144,10.1016/j.infsof.2024.107629,2024,Redefining crowdsourced test report prioritization: An innovative approach with large language model,,M,NR,Report not retrieved
-W4410621041,10.30574/wjaets.2024.13.1.0449,2024,From Scripts to Intelligence: How AI is Reshaping the Future of Software Testing,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4408690720,10.70777/si.v1i1.11101,2024,Highlights of the Issue,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4403317951,10.1145/3672539.3686341,2024,Pay Attention! Human-Centric Improvements of LLM-based Interfaces for Assisting Software Test Case Development,,I,EC5,Duplicate or earlier version of an included study
-W7160146226,10.51219/jaimld/srikanth-chakravarthy-vankayala/682,2024,From Requirements to Reliable Tests: Leveraging Generative AI to Transform Test Design Pipelines in Regulated Financial Systems,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
-W4402442473,10.1145/3650212.3680332,2024,Semantic Constraint Inference for Web Form Test Generation,,EC3,,Human only as research evaluator
-W4400878080,10.1109/tse.2024.3428972,2024,LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation,,I,INC,Eligible
-W4391505367,10.1145/3643763,2024,Towards AI-Assisted Synthesis of Verified Dafny Methods,,EC1,,Not about testing a software artefact
-W4400582690,10.1145/3660783,2024,Evaluating and Improving ChatGPT for Unit Test Generation,,EC3,,Human only as research evaluator
-W4400484392,10.1145/3663529.3663801,2024,ChatUniTest: A Framework for LLM-Based Test Generation,,EC3,,Human only as research evaluator
-W4400318591,10.1145/3675395,2024,AceCoder: An Effective Prompting Technique Specialized in Code Generation,,EC1,,Not about testing a software artefact
-W4394769383,10.1145/3597503.3639157,2024,Enhancing Exploratory Testing by Large Language Model and Knowledge Graph,,I,INC,Eligible
-W4391439189,10.1002/hcs2.79,2024,A systematic evaluation of the performance of GPT-4 and PaLM2 to diagnose comorbidities in MIMIC-IV patients,,EC1,,Not about testing a software artefact
-W4392305888,10.5220/0012467100003636,2024,Unmasking the Giant: A Comprehensive Evaluation of ChatGPT's Proficiency in Coding Algorithms and Data Structures,,EC1,,Not about testing a software artefact
-W4402115786,10.1007/978-3-031-66854-8_3,2024,Towards an Intelligent Test Case Generation Framework Using LLMs and Prompt Engineering,,M,NR,Report not retrieved
-W4403415411,10.18785/jhe.2001.05,2024,Exploring ChatGPT's Clinical Ethics Ability: A pilot study,,EC1,,Not about testing a software artefact
-W4411659439,10.63282/3050-9416.ijaibdcms-v5i4p109,2024,Intelligent Automation: Leveraging LLMs in DevOps Toolchains,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4402551260,10.70213/1948-1802.1000,2023,Defoe and the Chatbot: The Emotional Avoidance of Predictive Prose,,EC1,,Not about testing a software artefact
-W7220013226,,2023,Leveraging Generative AI for Automated Test Case Generation: A Framework for Enhanced Coverage and Defect Detection,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W4366735548,10.1145/3583131.3590481,2023,Fully Autonomous Programming with Large Language Models,,EC1,,Not about testing a software artefact
-W4378387269,10.3389/fcomm.2023.1129082,2023,Artificial intelligence for health message generation: an empirical study using a large language model (LLM) and prompt engineering,,EC1,,Not about testing a software artefact
-W4385570331,10.18653/v1/2023.findings-acl.540,2023,Aligning Offline Metrics and Human Judgments of Value for Code Generation Models,,EC1,,Not about testing a software artefact
-W4389524488,10.18653/v1/2023.findings-emnlp.901,2023,Beyond Testers' Biases: Guiding Model Testing with Knowledge Bases using LLMs,,I,INC,Eligible
-W4416519715,10.48161/qtj.v1n3a15,2022,Automated Software Testing through Large Language Models: Opportunities and Challenges,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
-W3203321135,10.1145/3491102.3517582,2022,AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts,,EC1,,Not about testing a software artefact
-W7130408160,10.5281/zenodo.18679817,2021,Generative AI-Enhanced Continuous Integration and Continuous Delivery Pipelines: Intelligent Automation for Modern Software Delivery,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+source,record_id,doi,year,title,duplicate_of,title_abstract,full_text,reason
+OpenAlex,W7222974444,10.15408/jti.v19i2.53564,2026,AI-Driven Software Testing for a Test Center of Excellence: A Systematic Mapping and Evidence Synthesis,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7221587976,10.5281/zenodo.23340592,2026,"AI Code Synthesis, Autonomous Debugging, and the Evolution of the Software Engineering Lifecycle: Repository Graph Reasoning, SWE-bench Benchmarks, and Security Bounds",,EC1,,Not about testing a software artefact
+OpenAlex,W7221692015,10.5281/zenodo.23336833,2026,Building a Career in Web Development with AI-Powered Full Stack Skills,,EC1,,Not about testing a software artefact
+OpenAlex,W7221757791,10.62486/ei2026103,2026,Inteligencia artificial en la ingenieria de software,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7127653412,10.1145/3832783.3837477,2026,Synthesizing File-Level Data for Unit Test Generation with Chain-of-Thoughts via Self-Debugging,,EC3,,Human only as research evaluator
+OpenAlex,W7202149707,10.1145/3832783.3834339,2026,Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering,,EC1,,Not about testing a software artefact
+OpenAlex,W7219595429,10.5281/zenodo.23097228,2026,Toward DOI-Based Mission Impact Tracking: An LLM Agent for SPASE Authorship Metadata,,EC1,,Not about testing a software artefact
+OpenAlex,W7218444999,10.1007/s12652-026-05135-x,2026,AI-in-the-human-loop: an operational model for mature human-AI collaboration,,EC1,,Not about testing a software artefact
+OpenAlex,W7129499062,10.1145/3832196,2026,Compiling Large Multi-modal Requirement Documents into Runnable Software Systems: From an Agentic Test-Driven Perspective,,EC1,,Not about testing a software artefact
+OpenAlex,W7215051543,10.1145/3832108,2026,From Natural Language to Executable Properties for Property-Based Testing of Mobile Apps (Experience Paper),,M,INC,Eligible
+OpenAlex,W7215088088,10.1145/3832131,2026,ScratchNet: A Multi-modal Benchmark for Evaluating and Advancing LLMs on Scratch Programming Tasks,,EC1,,Not about testing a software artefact
+OpenAlex,W7214893002,10.5281/zenodo.23056980,2026,Call for Research Articles | International Journal of Software Engineering & Applications,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7213886608,10.1016/j.aei.2026.105301,2026,LLM-driven personalized garment synthesis enhanced by neuro-symbolic RAG and physics-aware pattern optimization,,EC1,,Not about testing a software artefact
+OpenAlex,W7213419118,10.1016/j.ijmedinf.2026.106729,2026,Fine-tuning a compact large language model on real-world cases yields diagnostic performance comparable to flagship models in rheumatology,,EC1,,Not about testing a software artefact
+OpenAlex,W7212300434,10.1088/1402-4896/aea65a,2026,Agentic AI for gravitational wave data analysis: a head-to-head comparison of coding agents executing a matched filter pipeline on Einstein Telescope simulated data,,EC1,,Not about testing a software artefact
+OpenAlex,W7202273573,10.5753/sast.2026.30673,2026,Cassiopeia: A Retrieval-Augmented Generation Tool for Automated Test-Case Creation,,M,EC3,Human only as research evaluator
+OpenAlex,W7221152725,10.5753/sast.2026.31274,2026,Do SAST Alerts Become Reproducible Tests? Evaluating Context-Enriched LLMs for Security Verification,,M,EC3,Human only as research evaluator
+OpenAlex,W7212067792,10.5281/zenodo.22645908,2026,"The Human-Machine Layer for Autonomous Fusion Operation: Natural-Language-Supervised Control, Autonomous Root-Cause Analysis and a Digital Operator Logbook",,EC1,,Not about testing a software artefact
+OpenAlex,W7220256460,,2026,Secure and Trustworthy LLM-Based Code Generation for Enterprise Software Systems,,EC1,,Not about testing a software artefact
+OpenAlex,W7207877744,10.5281/zenodo.22283924,2026,Generative AI-Based Placement Management System: An Intelligent End-to-End Platform for Campus Recruitment,,EC1,,Not about testing a software artefact
+OpenAlex,W7162629403,10.1109/etfa68377.2026.11725237,2026,An LLM-Based Assistance System for Intuitive and Flexible Capability-Based Planning,,EC1,,Not about testing a software artefact
+OpenAlex,W7204182460,10.1007/978-3-032-36590-3_33,2026,"Evaluation of Quality, Effectiveness, and Reproducibility of AI-Generated Unit Tests Through Mutation Testing Techniques",,M,EC3,Human only as research evaluator
+OpenAlex,W7203892061,10.1007/978-3-032-32104-6_26,2026,Integrating Generative Artificial Intelligence as a Learning Assistant in Software Engineering: Evaluating Developer Productivity with Cost-Benefit Analysis,,EC1,,Not about testing a software artefact
+OpenAlex,W7203642999,10.5281/zenodo.21972875,2026,Test Case Generation from Large Language Mode - Systematic Mapping Studies (2023 - 2025) - Code Results,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7203456728,10.5281/zenodo.21929388,2026,"The Impact of Artificial Intelligence on Software Engineering: Productivity, Code Quality, Security, and the Changing Role of Software Engineers",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7202145813,10.1016/j.iot.2026.102066,2026,TGenAI: An LLM-based approach for functional end-to-end test generation for IoT systems,,M,INC,Eligible
+OpenAlex,W7202040894,10.13052/jicts2245-800x.1436,2026,Standardized Framework for Evaluating Language Quality of Chinese Large Language Models,,EC1,,Not about testing a software artefact
+OpenAlex,W7171098646,10.1016/j.jss.2026.113056,2026,AI-assisted assessment of software engineering coursework: Tool-support and an empirical study,,EC1,,Not about testing a software artefact
+OpenAlex,W7171235819,10.5281/zenodo.21551678,2026,"A Practical Quality Assurance Framework for Large Language Model Applications: Evaluation Metrics, Failure Modes, and Testing Strategies",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7169813477,10.1007/978-981-92-3426-4_41,2026,Resolving Natural Language Ambiguity for Verified Code Generation: A Two-Stage LLM Framework,,EC1,,Not about testing a software artefact
+OpenAlex,W7168019907,10.5281/zenodo.21307429,2026,"LRO-κ⁸ SPINE + 3.1.2 : A Geometry-Aware Systems Language for Quantum-Holographic Field Manipulation Subtitle: The Bridge Between Analytical Physics and Production-Grade Machine Code — 1,708× Faster than C, Rust, and Zig for Field Geometry Problems — With Full Conventional Code Support, Self-Propagating AI Migration Bootloader, and Universal Cross-Platform Compatibility",,EC1,,Not about testing a software artefact
+OpenAlex,W7168037504,10.5281/zenodo.21308154,2026,"🌀 LRO-κ⁸ SPINE + 3.1.3 MASTER FILE including cross platform LRO-κ⁸ SPINE + 3.1: A Geometric Control Language for Quantum-Holographic Field Manipulation – Extended AI Migration Protocol with Holographic GPU, Quantum Circuit Execution, Volumetric Field-Effect Display, Automatic C/Rust Kernel Generation, and Official Verification Suite. Including LRO-κ⁸ QUANTUM PLATFORM PATCH — CHINA EDUCATIONAL DEPLOYMENT",,EC1,,Not about testing a software artefact
+OpenAlex,W7168043385,10.5281/zenodo.21306964,2026,"LRO-κ⁸ SPINE + 3.1 A Geometry-Aware Systems Language for Quantum-Holographic Field Manipulation. The Bridge Between Analytical Physics and Production-Grade Machine Code — 1,708× Faster than C, Rust, and Zig for Field Geometry Problems — With Full Conventional Code Support and Self-Propagating AI Migration Bootloader",,EC1,,Not about testing a software artefact
+OpenAlex,W7168013872,10.5281/zenodo.21269729,2026,Toward a Unit Testing Maturity Model integration (UTMMi) supported by GenAI: A preliminary study,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7167613664,10.5281/zenodo.21244556,2026,NC/SP Hybrid AI Architecture: Coupling Deterministic Central Nuclei with Reinforcement Learning Frameworks under V3 Specification,,EC1,,Not about testing a software artefact
+OpenAlex,W7169577568,10.1145/3803437.3805202,2026,Just-in-Time Catching Test Generation at Meta,,I,INC,Eligible
+OpenAlex,W7166716646,10.4271/2026-01-0777,2026,Multi-Agent LLM Architecture for Systems Engineering Automation,,EC1,,Not about testing a software artefact
+OpenAlex,W7171713090,10.63766/spujstmr.26.000094,2026,DIALLOps: A DevOps-Integrated Framework for Secure andReliable Large Language Model Operations,,EC1,,Not about testing a software artefact
+OpenAlex,W4404345239,10.1145/3808106,2026,Fairness Testing of Large Language Models in Role-Playing,,EC1,,Not about testing a software artefact
+OpenAlex,W4405425977,10.1609/icaps.v36i1.42877,2026,Automating Thought of Search: A Journey Towards Soundness and Completeness,,EC1,,Not about testing a software artefact
+OpenAlex,W7167478997,10.5281/zenodo.21217704,2026,The Evolution of Large Language Models in Software Testing and Quality Assurance: Toward Governed and Agent-Based Collaboration,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7163693454,10.1016/j.infsof.2026.108215,2026,An empirical investigation of Large Language Models for automated software compliance testing: Evidence from web accessibility,,M,EC3,Human only as research evaluator
+OpenAlex,W7165397455,10.63282/3050-922x.ijeret-v7i2p134,2026,"Agentic AI for Autonomous Software Maintenance: A Retrieval-Augmented Multi-Agent Framework for Bug Localization, Patch Generation, and Regression Validation",,EC1,,Not about testing a software artefact
+OpenAlex,W7170243454,10.1109/icsa66085.2026.00008,2026,Can AI Agents Generate Microservices? How Far are We?,,EC1,,Not about testing a software artefact
+OpenAlex,W7171684984,10.5281/zenodo.21678595,2026,THE IMPACT OF AGENTIC CODING ON THE MODERN SOFTWARE DEVELOPMENT LIFECYCLE,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7171697874,10.5281/zenodo.21682074,2026,THE IMPACT OF AGENTIC CODING ON THE MODERN SOFTWARE DEVELOPMENT LIFECYCLE,W7171684984,,,duplicate
+OpenAlex,W7162626353,10.1145/3817601,2026,"Preemptive, Buffered, or Guided? Empirical Studies on Human–AI Interaction Strategies for Software Test Case Development",,I,INC,Eligible
+OpenAlex,W7163549035,10.31673/2786-8362.2026.014209,2026,Methodological Aspects of Implementing Hybrid Generative AI Models in Regression Testing Automation Processes,,M,INC,Eligible
+OpenAlex,W7161173320,10.1145/3811825,2026,FURINA: A Multi-Agent Framework for Automated Patch Correctness Assessment,,EC1,,Not about testing a software artefact
+OpenAlex,W7160946935,10.59256/indjcst.20260502014,2026,An AI-Driven Quiz System using Multi-Agent Retrieval-Augmented Generation,,EC1,,Not about testing a software artefact
+OpenAlex,W7160847769,10.5281/zenodo.20120680,2026,TRACE-TEST: An Evidence-Linked Software Quality Assurance Framework for AI-Augmented Testing in Regulated Platforms,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7160394139,10.7717/peerj-cs.3695,2026,"A process-centric review of large language models in graphical user interface testing: architectures, lifecycle impact, and challenges",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7169832189,10.1109/isda70544.2026.11606005,2026,A Multi-Layer Human-in-the-Loop Reinforcement Learning Framework for Improving LLM-Based Test Case Generation from Software Requirements,,I,NR,Report not retrieved
+OpenAlex,W7220050194,,2026,Pengembangan Sistem Penilaian Otomatis User Interface Website Institusi Berbasis AI Menggunakan Metode Expert Review dan YOLOv11,,EC2,,No LLM or generative model
+OpenAlex,W7159804402,10.3390/software5020019,2026,Investigating the Refactoring Capabilities of Small Open-Weight Language Models,,EC1,,Not about testing a software artefact
+OpenAlex,W4417141696,10.1007/s11192-026-05633-x,2026,Can ChatGPT evaluate research environments? Evidence from REF2021,,EC1,,Not about testing a software artefact
+OpenAlex,W7213298580,10.1145/3828183.3828228,2026,An Automated Programming Assignment Evaluation and Personalized Feedback System Driven by Large Language Models,,EC1,,Not about testing a software artefact
+OpenAlex,W7163224418,10.1109/icaiset66439.2026.11541931,2026,Compliance-Aware Generative AI for Life Insurance Document Synthesis: A Reference Architecture,,EC1,,Not about testing a software artefact
+OpenAlex,W7162562095,10.31474/2074-7888-2026-2-24-51-60,2026,MODERN APPROACHES TO THE USE OF ARTIFICIAL INTELLIGENCE IN SOFTWARE TESTING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7128480797,10.1145/3772318.3791222,2026,Data-Prompt Co-Evolution: Growing Test Sets to Refine LLM Behavior,,M,INC,Eligible
+OpenAlex,W7171968711,10.1145/3793302.3793611,2026,Why Are AI Agent–Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study,,EC1,,Not about testing a software artefact
+OpenAlex,W4417150976,10.1145/3744916.3787764,2026,"Enabling Global, Human-Centered Explanations for LLMs: From Tokens to Interpretable Code and Test Generation",,EC1,,Not about testing a software artefact
+OpenAlex,W7152590431,10.55632/pwvas.v98i1.1308,2026,Refactoring a Codebase with and without Generative AI: A Comparative Study,,EC1,,Not about testing a software artefact
+OpenAlex,W7164806010,10.25103/jestr.192.20,2026,A Structured LLM-Augmented Data Science Workflow for Automated Software Testing: Design and Evaluation on Defects4J,,M,INC,Eligible
+OpenAlex,W7154059163,10.19139/soic-2310-5070-3444,2026,Hybrid QLoRA-RAG Architecture for Saudi End-of-Service Benefits Calculation: Synthetic Data Generation and Uncertainty Quantification for Legal Reasoning,,EC1,,Not about testing a software artefact
+OpenAlex,W7220194038,,2026,An AI-Driven System for Automated Software Testing and Quality Assurance,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7138963985,10.1609/aaai.v40i44.41098,2026,How Much Do Large Language Model Cheat on Evaluation? Benchmarking Overestimation Under the One-Time-Pad-Based Framework,,EC1,,Not about testing a software artefact
+OpenAlex,W7164653788,10.1145/3803291.3803376,2026,RepoGuard: Harmonising Security and Functional Correctness in LLM-Guided Repository-Level Code Generation,,EC1,,Not about testing a software artefact
+OpenAlex,W7134943833,10.1109/tdsc.2026.3672745,2026,"Security and Quality in LLM-Generated Code: A Multi-Language, Multi-Model Analysis",,EC1,,Not about testing a software artefact
+OpenAlex,W7134061324,10.3390/app16052542,2026,A Logic-Guided and Explainable Approach to LLM-Based Unit Test Generation,,M,EC3,Human only as research evaluator
+OpenAlex,W7160231790,10.1109/nqcomp68334.2026.11497649,2026,TestAgentX: Leveraging Large Language Models and Reinforcement Learning for Scalable and Adaptive Software Testing,,M,INC,Eligible
+OpenAlex,W7133135653,10.1007/s43503-026-00088-8,2026,Large language model-based multi-agent systems for automated foundation design: router-driven task classification and expert selection framework,,EC1,,Not about testing a software artefact
+OpenAlex,W7134192468,10.25791/aviakosmos.2.2026.1538,2026,ПУТИ И ПЕРСПЕКТИВЫ ИСПОЛЬЗОВАНИЯ ИНТЕЛЛЕКТУАЛЬНЬГХ АГЕНТОВ В КОСМОНАВТИКЕ,,EC1,,Not about testing a software artefact
+OpenAlex,W7132844378,10.5281/zenodo.18812888,2026,Continuous Evaluation & Observability for Enterprise AI Agents: A Unified Framework for LLM and ML Systems,,EC1,,Not about testing a software artefact
+OpenAlex,W7134069801,10.22399/ijcesen.4959,2026,Continuous Evaluation & Observability for Enterprise AI Agents: A Unified Framework for LLM and ML Systems,W7132844378,,,duplicate
+OpenAlex,W7130829146,10.1007/s11219-026-09744-9,2026,Automated test plan generation using large language models,,M,NR,Report not retrieved
+OpenAlex,W7131081022,10.1109/icaic67076.2026.11395683,2026,Reinforcement Learning Integrated Agentic RAG for Software Test Cases Authoring,,M,INC,Eligible
+OpenAlex,W7128510042,10.1098/rsos.251766,2026,Generating units of cultural analysis with large language models: methods and validation for scalable cross-cultural research,,EC1,,Not about testing a software artefact
+OpenAlex,W7134965393,10.1109/iisec69317.2026.11418473,2026,Automating Software Documentation with n8n and Large Language Models: A GitHub and Jira to Confluence Case Study,,EC1,,Not about testing a software artefact
+OpenAlex,W7127339528,10.1016/j.jtct.2025.12.837,2026,Applying AI and Machine Learning to Streamline Medical Records Abstraction for CIBMTR Data Submission,,EC1,,Not about testing a software artefact
+OpenAlex,W7215382252,,2026,GENERATIVE ARTIFICIAL INTELLIGENCE AS A TRANSFORMATIVE CATALYST FOR BEHAVIOR DRIVEN DEVELOPMENT AND AUTOMATED TEST ENGINEERING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7127947778,10.63944/3v2.aia,2026,Practical Research on Intelligent Requirements Analysis and Test Case Generation Driven by Large Language Models,,M,INC,Eligible
+OpenAlex,W7125087875,,2026,ДИСПАТЧЕР: ПОДОЛАННЯ ІМОВІРНІСНОГО РОЗРИВУ В АВТОМАТИЗОВАНОМУ МОДЕЛЮВАННІ РІШЕНЬ,W7134192468,,,duplicate
+OpenAlex,W7153037986,10.20998/2413-3000.2025.11.9,2026,THE DISPATCHER: BRIDGING THE PROBABILISTIC GAP IN AUTOMATED DECISION MODELING,,EC1,,Not about testing a software artefact
+OpenAlex,W7131425457,10.1093/jamiaopen/ooag016,2026,Agent-based large language model system for extracting structured data from breast cancer synoptic reports: a dual-validation study,,EC1,,Not about testing a software artefact
+OpenAlex,W7131314677,10.70534/qtxd2222,2026,Automated Model Generation with Delineate Co-Pilot,,EC1,,Not about testing a software artefact
+OpenAlex,W7131657564,10.48444/h_docs-pub-623,2026,Automated Typing of Legacy Software Projects Using Agentic AI,,EC1,,Not about testing a software artefact
+OpenAlex,W7147263675,10.1049/sfw2/3348017,2026,Refactoring Object‐Oriented Software With ChatGPT: An Empirical Study,,EC1,,Not about testing a software artefact
+OpenAlex,W7154229781,10.24251/hicss.2026.860,2026,"Prompt Engineering Patents in Software Development: Trends, Themes, and Future Directions",,EC1,,Not about testing a software artefact
+OpenAlex,W7163804966,10.1007/978-3-032-28110-4_20,2026,Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution,,M,NR,Report not retrieved
+OpenAlex,W7166819975,10.18653/v1/2026.acl-industry.2,2026,"Smarter, not Bigger: Fine-Tuned RAG-Enhanced LLMs for Automotive Hardware-in-the-Loop Testing",,M,INC,Eligible
+OpenAlex,W7166872279,10.18653/v1/2026.law-main.4,2026,Human-AI Annotation Error Auditing for Hebrew Diacritization with Frontier LLMs,,EC1,,Not about testing a software artefact
+OpenAlex,W7167251632,10.5281/zenodo.21158352,2026,AI Agent Governance in Enterprise CI/CD: A Three-Layer Containment Architecture with Kill-Switch Validation,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7167484449,10.1007/978-3-032-29175-2_23,2026,Evaluating Generative AI Output Quality in Requirements-Based Test Design: A Practitioner Log Study on Failure Modes and Correction Effort,,I,INC,Eligible
+OpenAlex,W7204216016,10.32604/cmc.2026.089115,2026,Accountable NLP for Evidence-Grounded Decision Briefings: A Critical Review and Evaluation Framework,,EC1,,Not about testing a software artefact
+OpenAlex,W7207876777,10.1109/access.2026.3730474,2026,"When to Invoke an LLM in Industrial Natural-Language-to-DSL Conversion: A Taxonomy-Driven, Confidence-Gated Selective Hybrid for Safety-Critical Avionics Test-Script Authoring",,M,INC,Eligible
+OpenAlex,W7119522089,10.31891/csit-2025-4-8,2025,AI-BASED AUTOMATION OF DECISION LOGIC REPRESENTATION: BRIDGING GAP IN AUTOMATED DECISION MODELING VALIDATION,,EC1,,Not about testing a software artefact
+OpenAlex,W7127419093,10.1109/sta66620.2025.11364940,2025,The Role of Machine Learning and Large Language Models in Software Testing and Validation,,M,INC,Eligible
+OpenAlex,W7168249476,10.51219/jaimld/urvish-gajjar/687,2025,Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for Self-Directed Software Quality Assurance,,M,EC6,Human role not described
+OpenAlex,W7168288228,10.5281/zenodo.21349993,2025,Autonomous AI and Agentic Testing Agents: A Multi-Agent Architecture for SelfDirected Software Quality Assurance,W7168249476,,,duplicate
+OpenAlex,W7124959047,10.1108/aiie-05-2025-0088,2025,Generative AI-enabled adaptive learning platform: How I can help you pass your driving test?,,EC1,,Not about testing a software artefact
+OpenAlex,W7135378049,10.66361/jiss.38,2025,Evolutionary System 2 Reasoning: An Empirical Proof,,EC1,,Not about testing a software artefact
+OpenAlex,W7131207497,10.1109/apsec66846.2025.00119,2025,Multi-view Leaderboard: Towards Evaluating the Code Intelligence of LLMs From Multiple Views,,EC1,,Not about testing a software artefact
+OpenAlex,W4417277127,10.1093/bib/bbaf631.044,2025,"Function-aware biosecurity screening: datasets, benchmarks, and detection systems for next-generation pathogen identification",,EC1,,Not about testing a software artefact
+OpenAlex,W7215413837,,2025,Automating Unit Test Generation with Large Language Models: An Integrated Empirical and Theoretical Investigation,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7124905403,10.1109/iccca66364.2025.11325440,2025,Real-Time Emotion Recognition and Response Generation via LLM-Embedded Multimodal Interfaces,,EC1,,Not about testing a software artefact
+OpenAlex,W7220478885,,2025,AI-DRIVEN ASSURANCE: A CONCEPTUAL FRAMEWORK FOR INTELLIGENT SOFTWARE QUALITY TESTING,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4416506707,10.1093/ajhp/zxaf309,2025,Executive Summary of the 2025 ASHP Commission on Goals: Preparing for the Evolving Healthcare Landscape,,EC1,,Not about testing a software artefact
+OpenAlex,W4416513322,10.1109/tvcg.2025.3633869,2025,Can LLMs Bridge Domain and Visualization? A Case Study on High-Dimension Data Visualization in Single-Cell Transcriptomics,,EC1,,Not about testing a software artefact
+OpenAlex,W7125019428,10.1109/aiware69974.2025.00018,2025,Software Testing with Large Language Models: An Interview Study with Practitioners,,I,INC,Eligible
+OpenAlex,W7106002776,10.5281/zenodo.17644195,2025,"LoE Experimental Roadmap: Meta–Hamiltonians, Solar Interferometry, and Multi–Tokamak Relational Decoherence Tests Toonhai (Krzysztof Sawa) AEon (OpenAI LLM)",,EC1,,Not about testing a software artefact
+OpenAlex,W7125943867,10.1109/ase63991.2025.00250,2025,Clarifying Semantics of In-Context Examples for Unit Test Generation,,EC3,,Human only as research evaluator
+OpenAlex,W7125972785,10.1109/ase63991.2025.00156,2025,"ORFuzz: Fuzzing the ""Other Side"" of LLM Safety - Testing Over-Refusal",,EC1,,Not about testing a software artefact
+OpenAlex,W7125979146,10.1109/ase63991.2025.00150,2025,Multi-dimensional Assessment of Crowdsourced Testing Reports via LLMs,,M,EC3,Human only as research evaluator
+OpenAlex,W4416245423,10.69849/revistaft/pa10202511151938,2025,TESTES UNITÁRIOS UTILIZANDO INTELIGÊNCIA ARTIFICIAL,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4415923903,10.32782/it/2025-1-35,2025,AN INTEGRATED FRAMEWORK FOR AI-DRIVEN QUALITY ENGINEERING: SCALING TEST AUTOMATION THROUGH LARGE LANGUAGE MODELS AND BEHAVIOR-DRIVEN DEVELOPMENT,,M,INC,Eligible
+OpenAlex,W7123661621,10.1109/fie63693.2025.11328463,2025,Comparative Evaluation of Large Language Models for Test-Skeleton Generation,,M,EC3,Human only as research evaluator
+OpenAlex,W7104365500,10.5281/zenodo.17513215,2025,Prospective validation of NeutrinoReview for LLM-assisted systematic review screening: an indoor air quality case study (supplementary material),,EC1,,Not about testing a software artefact
+OpenAlex,W7125973578,10.1109/icodse68111.2025.11351763,2025,Quality Evaluation of LLM-based Generated Test Case: A Literature Review,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4417003642,10.1109/icce-asia67487.2025.11263552,2025,Real-time Fighting Game Commentary Generation via Strategic Rationale Distillation,,EC1,,Not about testing a software artefact
+OpenAlex,W4415543216,10.56557/jgembr/2025/v17i39877,2025,AI-Augmented Agility: A Comprehensive Review of Generative AI Applications in Agile Project Management,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7106131171,10.5281/zenodo.17629831,2025,Test4You: An LLM-based Framework for Enhancing the Software Testing Process,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4415273800,10.3389/frai.2025.1660912,2025,Blueprint2Code: a multi-agent pipeline for reliable code generation via blueprint planning and repair,,EC1,,Not about testing a software artefact
+OpenAlex,W4415178975,10.1109/tsg.2025.3621438,2025,Large Language Model Powered Automated Modeling and Optimization of Active Distribution Network Dispatch Problems,,EC1,,Not about testing a software artefact
+OpenAlex,W7117256667,10.1109/vl-hcc65237.2025.00035,2025,TraceMate: Collaborating with AI in Test-Driven Programming,,EC1,,Not about testing a software artefact
+OpenAlex,W4414516091,10.52403/ijrr.20250941,2025,Human-AI Collaboration in Validating and Refining LLM Summaries of Test Automation Results,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4414276135,10.5753/ise.2025.14878,2025,How Software Testers Perceive Large Language Models: A Focus Group Study with Lexicometric Analysis,,I,INC,Eligible
+OpenAlex,W4415709066,10.1109/roedunet68395.2025.11208370,2025,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,,M,EC3,Human only as research evaluator
+OpenAlex,W4415398834,10.1109/etfa65518.2025.11205762,2025,Leveraging LLMs Towards Assistant-based Support for Industrial Threat Models,,EC1,,Not about testing a software artefact
+OpenAlex,W4414450274,10.1136/bmjment-2025-301817,2025,Interpreting psychiatric digital phenotyping data with large language models: a preliminary analysis,,EC1,,Not about testing a software artefact
+OpenAlex,W7217713367,,2025,"Adaptive and Trustworthy Software Testing in the Era of Large Language Models: Frameworks, Empirical Insights, and Future Directions",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4414969365,10.64229/ykh1jf83,2025,AI-Powered Software Development Life Cycle: From Requirements to Maintenance,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4414231184,10.1109/roma66616.2025.11155852,2025,AI-Assisted Personal Wardrobe Management: A Human-Centric Approach to Intelligent Clothing Organization and Style Recommendation,,EC1,,Not about testing a software artefact
+OpenAlex,W7110791997,10.1145/3709016.3737802,2025,Evaluating Capabilities and Perspectives of Generative AI Tools in Smart Contract Development,,EC1,,Not about testing a software artefact
+OpenAlex,W4413084242,10.32996/jcsts.2025.7.7.71,2025,"Testing AI Large Language Models: Challenges, Innovations, and Future Directions",,EC1,,Not about testing a software artefact
+OpenAlex,W4413904443,10.1109/meditcom64437.2025.11104374,2025,Toward Generative 6G Simulation: An Experimental Multi-Agent LLM and ns-3 Integration,,EC1,,Not about testing a software artefact
+OpenAlex,W4411902413,10.52403/ijrr.20250665,2025,Leveraging Artificial Intelligence for Efficient Test Generation in API Contract Testing,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W7217480140,,2025,"A Comprehensive Review of AI-Driven Software Engineering: Challenges, Opportunities, and Future Directions",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4411721799,10.1145/3734477.3736154,2025,DEMO: AI5GTest: LLM based Automation for 5G O-RAN Testing,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4411721803,10.1145/3734477.3734703,2025,AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components,,M,INC,Eligible
+OpenAlex,W4411522868,10.1145/3728963,2025,Can LLMs Replace Human Evaluators? An Empirical Study of LLM-as-a-Judge in Software Engineering,,EC1,,Not about testing a software artefact
+OpenAlex,W4411739108,10.1093/jamia/ocaf099,2025,Confidence-linked and uncertainty-based staged framework for phenotype validation using large language models,,EC1,,Not about testing a software artefact
+OpenAlex,W4413917228,10.1109/mipro65660.2025.11132037,2025,Toward AI Evaluation of Student Essays,,EC1,,Not about testing a software artefact
+OpenAlex,W4411687627,10.9790/0661-2703035568,2025,Code Quality Generated by AI Tools: A Review,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4411057389,10.37745/ejcsit.2013/vol13n34112,2025,"AI-Driven Quality Assurance: Integrating Generative Models, Predictive Analytics, and Self-Healing Frameworks in Software Testing",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4410243932,10.30574/wjaets.2025.15.2.0501,2025,"The future of human-AI collaboration in software development: Automating code, deployment and testing",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4411271192,10.1109/msr66628.2025.00112,2025,Human-In-The-Loop Software Development Agents: Challenges and Future Directions,,EC1,,Not about testing a software artefact
+OpenAlex,W4411271549,10.1109/msr66628.2025.00105,2025,Automatic High-Level Test Case Generation using Large Language Models,,M,EC3,Human only as research evaluator
+OpenAlex,W4411233861,10.1109/cseet66350.2025.00031,2025,Automatic Unit Test Generation for Programming Assignments Using Large Language Models,,M,EC3,Human only as research evaluator
+OpenAlex,W4411271299,10.1109/icse-companion66252.2025.00063,2025,Trustworthiness of Large Language Models for Code,,EC1,,Not about testing a software artefact
+OpenAlex,W4411359990,10.1109/icpc66645.2025.00040,2025,Using Large Language Models to Generate Concise and Understandable Test Case Summaries,,M,EC3,Human only as research evaluator
+OpenAlex,W4413360274,10.1109/icse-seip66354.2025.00042,2025,ASTER: Natural and Multi-Language Unit Test Generation with LLMs,,EC3,,Human only as research evaluator
+OpenAlex,W4409657118,10.1145/3696410.3714790,2025,SuiGPT MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract,,EC1,,Not about testing a software artefact
+OpenAlex,W4409361031,10.1609/aaai.v39i28.35240,2025,Automating Thought of Search: A Journey Towards Soundness and Completeness (Student Abstract),,EC1,,Not about testing a software artefact
+OpenAlex,W4409163756,10.3390/electronics14071463,2025,Harnessing Large Language Models for Automated Software Testing: A Leap Towards Scalable Test Case Generation,,M,EC3,Human only as research evaluator
+OpenAlex,W7162327731,10.63282/3050-9416.ijaibdcms-v6i1p122,2025,Agentic AI Frameworks for Autonomous Enterprise Software Development Workflows,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4409210930,10.56581/ijlret.11.03.14-19,2025,How Artificial Intelligence is Transforming Test Automation. AI-Powered Testing: New Tools and Trends,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4406880920,10.1145/3708359.3712085,2025,Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning,,EC1,,Not about testing a software artefact
+OpenAlex,W4408303513,10.1145/3722554,2025,Reeq: Testing and Mitigating Ethically Inconsistent Suggestions of Large Language Models with Reflective Equilibrium,,EC1,,Not about testing a software artefact
+OpenAlex,W4408767720,10.4236/jcc.2025.133003,2025,Transforming Performance Engineering with Generative AI,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4410776557,10.1007/978-3-031-93861-0_4,2025,Enhancing the Validation of Human Factors in User Interface Software Testing with AI,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4411406668,10.1109/access.2025.3581139,2025,A GPT-Based Code Review System With Accurate Feedback for Programming Education,,EC1,,Not about testing a software artefact
+OpenAlex,W4416033839,10.18653/v1/2025.wmt-1.57,2025,Evaluation of LLM for English to Hindi Legal Domain Machine Translation Systems,,EC1,,Not about testing a software artefact
+OpenAlex,W4416429199,10.1109/access.2025.3635218,2025,TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model,,M,EC3,Human only as research evaluator
+OpenAlex,W7216949360,,2024,Automatic Program Repair: A Comparative Study of LLMs on QuixBugs,,EC1,,Not about testing a software artefact
+OpenAlex,W4408862677,10.1109/aiim64537.2024.10934441,2024,CRALA: A Chinese-centric Risk Simulation and Assessment Framework for LLM Agents,,EC1,,Not about testing a software artefact
+OpenAlex,W4404724144,10.1016/j.infsof.2024.107629,2024,Redefining crowdsourced test report prioritization: An innovative approach with large language model,,M,NR,Report not retrieved
+OpenAlex,W4410621041,10.30574/wjaets.2024.13.1.0449,2024,From Scripts to Intelligence: How AI is Reshaping the Future of Software Testing,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4408690720,10.70777/si.v1i1.11101,2024,Highlights of the Issue,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4403317951,10.1145/3672539.3686341,2024,Pay Attention! Human-Centric Improvements of LLM-based Interfaces for Assisting Software Test Case Development,,I,EC5,Duplicate or earlier version of an included study
+OpenAlex,W7160146226,10.51219/jaimld/srikanth-chakravarthy-vankayala/682,2024,From Requirements to Reliable Tests: Leveraging Generative AI to Transform Test Design Pipelines in Regulated Financial Systems,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4402442473,10.1145/3650212.3680332,2024,Semantic Constraint Inference for Web Form Test Generation,,EC3,,Human only as research evaluator
+OpenAlex,W4400878080,10.1109/tse.2024.3428972,2024,LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation,,I,INC,Eligible
+OpenAlex,W4391505367,10.1145/3643763,2024,Towards AI-Assisted Synthesis of Verified Dafny Methods,,EC1,,Not about testing a software artefact
+OpenAlex,W4400582690,10.1145/3660783,2024,Evaluating and Improving ChatGPT for Unit Test Generation,,EC3,,Human only as research evaluator
+OpenAlex,W4400484392,10.1145/3663529.3663801,2024,ChatUniTest: A Framework for LLM-Based Test Generation,,EC3,,Human only as research evaluator
+OpenAlex,W4400318591,10.1145/3675395,2024,AceCoder: An Effective Prompting Technique Specialized in Code Generation,,EC1,,Not about testing a software artefact
+OpenAlex,W4394769383,10.1145/3597503.3639157,2024,Enhancing Exploratory Testing by Large Language Model and Knowledge Graph,,I,INC,Eligible
+OpenAlex,W4391439189,10.1002/hcs2.79,2024,A systematic evaluation of the performance of GPT-4 and PaLM2 to diagnose comorbidities in MIMIC-IV patients,,EC1,,Not about testing a software artefact
+OpenAlex,W4392305888,10.5220/0012467100003636,2024,Unmasking the Giant: A Comprehensive Evaluation of ChatGPT's Proficiency in Coding Algorithms and Data Structures,,EC1,,Not about testing a software artefact
+OpenAlex,W4402115786,10.1007/978-3-031-66854-8_3,2024,Towards an Intelligent Test Case Generation Framework Using LLMs and Prompt Engineering,,M,NR,Report not retrieved
+OpenAlex,W4403415411,10.18785/jhe.2001.05,2024,Exploring ChatGPT's Clinical Ethics Ability: A pilot study,,EC1,,Not about testing a software artefact
+OpenAlex,W4411659439,10.63282/3050-9416.ijaibdcms-v5i4p109,2024,Intelligent Automation: Leveraging LLMs in DevOps Toolchains,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4402551260,10.70213/1948-1802.1000,2023,Defoe and the Chatbot: The Emotional Avoidance of Predictive Prose,,EC1,,Not about testing a software artefact
+OpenAlex,W7220013226,,2023,Leveraging Generative AI for Automated Test Case Generation: A Framework for Enhanced Coverage and Defect Detection,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W4366735548,10.1145/3583131.3590481,2023,Fully Autonomous Programming with Large Language Models,,EC1,,Not about testing a software artefact
+OpenAlex,W4378387269,10.3389/fcomm.2023.1129082,2023,Artificial intelligence for health message generation: an empirical study using a large language model (LLM) and prompt engineering,,EC1,,Not about testing a software artefact
+OpenAlex,W4385570331,10.18653/v1/2023.findings-acl.540,2023,Aligning Offline Metrics and Human Judgments of Value for Code Generation Models,,EC1,,Not about testing a software artefact
+OpenAlex,W4389524488,10.18653/v1/2023.findings-emnlp.901,2023,Beyond Testers' Biases: Guiding Model Testing with Knowledge Bases using LLMs,,I,INC,Eligible
+OpenAlex,W4416519715,10.48161/qtj.v1n3a15,2022,Automated Software Testing through Large Language Models: Opportunities and Challenges,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+OpenAlex,W3203321135,10.1145/3491102.3517582,2022,AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts,,EC1,,Not about testing a software artefact
+OpenAlex,W7130408160,10.5281/zenodo.18679817,2021,Generative AI-Enhanced Continuous Integration and Continuous Delivery Pipelines: Intelligent Automation for Modern Software Delivery,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105051114025,10.1145/3770855.3818242,2026,Agentic Software Engineering (SE 3.0): The Rise of AI Teammates,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-85210129165,10.1016/j.infsof.2024.107629,2025,Redefining crowdsourced test report prioritization: An innovative approach with large language model,W4404724144,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105041320552,10.1016/j.infsof.2026.108215,2026,An empirical investigation of Large Language Models for automated software compliance testing: Evidence from web accessibility,W7163693454,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105027212078,10.22266/ijies2026.0131.04,2026,Leveraging Retrieval-augmented LLMs for Automated Test Case Generation from Software Requirements Specification,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-105051642120,10.3390/computers15090608,2026,Evidence-Aware Human-in-the-Loop LLM Review for Requirements-to-Planning Decisions,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85167675554,10.1145/3583131.3590481,2023,Fully Autonomous Programming with Large Language Models,W4366735548,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105016908409,10.1136/bmjment-2025-301817,2025,Interpreting psychiatric digital phenotyping data with large language models: a preliminary analysis,W4414450274,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105046165478,10.1109/ISDA70544.2026.11606005,2026,A Multi-Layer Human-in-the-Loop Reinforcement Learning Framework for Improving LLM-Based Test Case Generation from Software Requirements,W7169832189,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105045463827,10.18420/se2026-36,2026,Does GenAI Make Usability Testing Obsolete?,2-s2.0-105010325514,,,duplicate (found by hand)
+Scopus,2-s2.0-105010325514,10.1109/ICSE55347.2025.00138,2025,Does GenAI Make Usability Testing Obsolete?,,M,EC3,Human only as research evaluator
+Scopus,2-s2.0-105029571644,10.1016/j.neucom.2026.132787,2026,MODE+: A benchmark and a probe into multimodal open-domain dialogue evaluation,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105016246391,10.1109/ISIE62713.2025.11124673,2025,LLM4VC: Harnessing Large Language Models for Virtual Commissioning of IEC 61499 Automation Systems,,M,INC,Eligible
+Scopus,2-s2.0-105051375447,10.1145/3828183.3828498,2026,Design and Implementation of a Resume-Job Matching and Career Planning System for Intelligent Job-Seeking Scenarios,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105034666502,10.1109/ASE63991.2025.00150,2025,Multi-dimensional Assessment of Crowdsourced Testing Reports via LLMs,W7125979146,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105052193500,10.1145/3829641.3829737,2026,Retrieval-Augmented Question Answering and Hallucination Mitigation for Theoretical Mechanics via the Synergy of Large Language Models and Knowledge Graphs,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105017953320,10.1016/j.cmpb.2025.109096,2026,"An automated software methodology for biomedical statistics, data pre-processing, and machine learning",,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105009162123,10.1109/MSR66628.2025.00112,2025,Human-In-The-Loop Software Development Agents: Challenges and Future Directions,W4411271192,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105047804362,10.13052/jicts2245-800X.1436,2026,A Standardized Framework for Evaluating Language Quality of Chinese Large Language Models,W7202040894,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105032723895,10.1109/CoDIT66093.2025.11321342,2025,The Road to AI Companionship: Designing a Sentient AI Agent for Enhanced Driving Experience *,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105052220639,,2026,AI University: An LLM-Powered Learning Assistant for Engineering—A Finite Element Method Case Study,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105052641370,10.65109/SEOT8410,2026,Can Vibe Coding Beat Graduate CS Students? An LLM vs. Human Coding Tournament on Market-driven Strategic Planning,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105047085426,10.1109/TSE.2026.3689089,2026,CCISolver: End-to-End Detection and Repair of Method-Level Code-Comment Inconsistency,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85207845559,10.1109/VL/HCC60511.2024.00014,2024,Harnessing the Power of LLMs: LLM Summarization for Human-Centric DAST Reports,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-105034968552,10.1109/iSSSC66652.2025.11388349,2025,"Network Penetration Testing: A Comprehensive Review of Tools, Vulnerabilities, and AI-Driven Solutions",,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105028014112,10.1145/3722554,2025,Reeq: Testing and Mitigating Ethically Inconsistent Suggestions of Large Language Models with Reflective Equilibrium,W4408303513,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105050688018,10.3233/FAIA260745,2026,From Test Specification to Validated Test Cases: A Human-in-the-Loop Agentic Workflow for HDL Test Creation,,I,INC,Eligible
+Scopus,2-s2.0-105013959386,10.1145/3696630.3728518,2025,From Overload to Insight: Bridging Code Search and Code Review with LLMs,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105022415487,10.1109/RoEduNet68395.2025.11208370,2025,Evaluating LLMs for Automated Requirement and Test Case Generation in Railway Signaling Systems,W4415709066,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105044310205,10.1145/3777911.3800625,2026,We Optimized the Models and Broke the Community: Social Awareness as a Missing Requirement in ML-Enabled Software Engineering,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105027435635,10.18653/v1/2025.naacl-long.199,2025,Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105001672071,10.1145/3708557.3716341,2025,Leveraging Large Language Models for Usability Testing: a Preliminary Study,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-105051201687,10.1016/j.ijmedinf.2026.106729,2026,Fine-tuning a compact large language model on real-world cases yields diagnostic performance comparable to flagship models in rheumatology,W7213419118,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105021824561,10.1109/ETFA65518.2025.11205762,2025,Leveraging LLMs Towards Assistant-based Support for Industrial Threat Models,W4415398834,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85184250429,10.1002/hcs2.79,2024,A systematic evaluation of the performance of GPT-4 and PaLM2 to diagnose comorbidities in MIMIC-IV patients,W4391439189,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105040153824,10.1109/TSE.2026.3696849,2026,Agentic Program Repair from Test Failures at Scale: A Neuro-Symbolic Approach with Static Analysis and Test Execution Feedback,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105001687420,10.5220/0013374400003890,2025,Agentic AI for Behavior-Driven Development Testing Using Large Language Models,,I,INC,Eligible
+Scopus,2-s2.0-105011347869,10.1007/978-3-031-93861-0_4,2025,Enhancing the Validation of Human Factors in User Interface Software Testing with AI,W4410776557,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105008496222,10.1109/ICSE-NIER66352.2025.00021,2025,Automatically Generating Content for Testing Autonomous Vehicles from User Descriptions,,I,INC,Eligible
+Scopus,2-s2.0-105045000587,10.1109/ICESST69086.2026.11582907,2026,AI-Powered Software Engineering Automation System Using Multi-Agent Collaboration,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105022734811,10.1109/TVCG.2025.3633869,2026,Can LLMs Bridge Domain and Visualization? A Case Study on High-Dimension Data Visualization in Single-Cell Transcriptomics,W4416513322,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105032806008,10.1109/TDSC.2026.3672745,2026,"Security and Quality in LLM-Generated Code: A Multi-Language, Multi-Model Analysis",W7134943833,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105010213151,,2025,SELF-PLAY WITH EXECUTION FEEDBACK: IMPROVING INSTRUCTION-FOLLOWING CAPABILITIES OF LARGE LANGUAGE MODELS,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85204532790,10.1007/978-3-031-68738-9_34,2024,LLMs in Web Development: Evaluating LLM-Generated PHP Code Unveiling Vulnerabilities and Limitations,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85194224185,10.1007/978-3-031-60227-6_5,2024,Exploring the Performance of Large Language Models for Data Analysis Tasks Through the CRISP-DM Framework,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105012113838,10.1145/3734477.3736154,2025,DEMO: AI5GTest: LLM based Automation for 5G O-RAN Testing,W4411721799,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105032444073,10.1109/FNWF66845.2025.11317278,2025,IntelliTest: An Intelligent Framework for Agentic Functional Test Generation Using Multimodal Data and Domain Knowledge,,I,INC,Eligible
+Scopus,2-s2.0-105011210392,10.1093/jamia/ocaf099,2025,Confidence-linked and uncertainty-based staged framework for phenotype validation using large language models,W4411739108,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85200583637,,2024,IDENTIFYING THE RISKS OF LM AGENTS WITH AN LM-EMULATED SANDBOX,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105001920147,10.1145/3708359.3712085,2025,Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning,W4406880920,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105022685432,10.1109/ACCESS.2025.3635218,2025,TriGen: A Semantic-Feedback Collaborative LLM Test Case Generation Model,W4416429199,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105035161958,10.1109/ICNGN67480.2025.11413623,2025,Integrating Generative and Agentic AI with Spatial-Temporal Reasoning: A Cognitive Science-Inspired Framework for Next-Generation Intelligent Systems,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105007152687,10.1007/978-3-031-93536-7_16,2025,Generative Artificial Intelligence in Agile Software Development Processes: A Literature Review Focused on User eXperience,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-85202367152,10.1145/3675395,2024,AceCoder: An Effective Prompting Technique Specialized in Code Generation,W4400318591,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85215502804,10.1145/3699538.3699541,2024,Unrestricted Use of LLMs in a Software Project Course: Student Perceptions on Learning and Impact on Course Performance,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105042629689,10.1145/3803291.3803376,2026,RepoGuard: Harmonising Security and Functional Correctness in LLM-Guided Repository-Level Code Generation,W7164653788,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105013957188,10.1145/3696630.3728609,2025,CoSEFA: An LLM-Based Programming Assistant for Secure Code Generation via Supervised Co-Decoding,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105035226944,10.1109/AIware69974.2025.00018,2025,Software Testing with Large Language Models: An Interview Study with Practitioners,W7125019428,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105031562721,10.1007/s43503-026-00088-8,2026,Large language model-based multi-agent systems for automated foundation design: router-driven task classification and expert selection framework,W7133135653,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85202032269,10.1007/978-3-031-63592-2_11,2024,Using Large Language Models for Generating Smart Contracts for Health Insurance from Textual Policies,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105009108237,10.1109/MSR66628.2025.00105,2025,Automatic High-Level Test Case Generation using Large Language Models,W4411271549,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105033619203,10.1080/15710882.2026.2647077,2026,Towards collaborative intelligence: Reimagining human-agent co-design in traditional craft design through multi-agent Empathic Handover,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105048188053,10.3390/software5020019,2026,Investigating the Refactoring Capabilities of Small Open-Weight Language Models,W7159804402,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105033700396,10.1109/ICoDSE68111.2025.11351763,2025,Quality Evaluation of LLM-based Generated Test Case: A Literature Review,W7125973578,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105051123977,10.1145/3770855.3818480,2026,SHERLOCK: Towards Dynamic Knowledge Adaptation in LLM-enhanced E-commerce Risk Management,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105047319514,10.1145/3786583.3786918,2026,Automated Software Test Generation at Industry Scale Using a Multi-Agent Architecture and Workflow Integration,,I,INC,Eligible
+Scopus,2-s2.0-105040603305,10.1007/s44196-026-01276-1,2026,IntegraMind: An Intelligent Framework for Unified Assessment and Intervention in Dual Diagnosis,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105035210002,10.1109/APSEC66846.2025.00119,2025,Multi-view Leaderboard: Towards Evaluating the Code Intelligence of LLMs From Multiple Views,W7131207497,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105032441821,10.1109/ICM66518.2025.11321329,2025,"Formal that ""Floats"" High: Formal Verification of Floating Point Arithmetic",,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105002315925,10.3390/electronics14071463,2025,Harnessing Large Language Models for Automated Software Testing: A Leap Towards Scalable Test Case Generation,W4409163756,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105047060357,10.1145/3793302.3793583,2026,Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105000814686,10.1109/FIE61694.2024.10893165,2024,A Systematic Evaluation of Code-generating Chatbots for Use in Undergraduate Computer Science Education,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105042979973,10.1145/3748522.3780008,2026,Requirement Bot: Enhancing Software User Requirement List Through Retrieval-Augmented Human-AI Co-Authoring,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105031091124,10.1109/ICCE-Asia67487.2025.11263552,2025,Real-time Fighting Game Commentary Generation via Strategic Rationale Distillation,W4417003642,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105038439474,10.1109/ICIT64854.2026.11490162,2026,Fault Diagnosis Explanation with Decision Trees and Large Language Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105052154440,10.1109/REW72749.2026.00023,2026,On the Viability of Requirements Generation from Code: An Experience Report,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105052394495,10.3390/batteries12090335,2026,Human-Guided AI Development of Physics-Bounded Screening Rules for Sparse Battery Signals: A LiFePO4 Case Study,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105035192608,10.1109/ICCCA66364.2025.11325440,2025,Real-Time Emotion Recognition and Response Generation via LLM-Embedded Multimodal Interfaces,W7124905403,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85186232928,,2024,TEACHING LARGE LANGUAGE MODELS TO SELF-DEBUG,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105013960223,10.1145/3696630.3730538,2025,AI in the Software Development Lifecycle: Insights and Open Research Questions,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105046130392,10.1109/ISADES69945.2026.11608247,2026,Can Human Preference Redefine AI Testing? A Side-by-Side Evaluation Platform for Large Language Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85184339520,10.1109/LRA.2024.3360020,2024,Deploying and Evaluating LLMs to Program Service Mobile Robots,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105036953818,10.1109/ICMLA66185.2025.00068,2025,AI-Driven Test Generation from Natural Language: A Gamified Framework for Automated UI Testing,,M,INC,Eligible
+Scopus,2-s2.0-105005141888,10.1145/3696410.3714790,2025,SuiGPT MAD: Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract,W4409657118,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105046464537,10.1109/ICSA66085.2026.00008,2026,Can AI Agents Generate Microservices? How Far are We?,W7170243454,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85161405789,10.3389/fcomm.2023.1129082,2023,Artificial intelligence for health message generation: an empirical study using a large language model (LLM) and prompt engineering,W4378387269,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105008490938,10.1109/CSEET66350.2025.00031,2025,Automatic Unit Test Generation for Programming Assignments Using Large Language Models,W4411233861,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105016209434,10.1109/ICSE-SEIP66354.2025.00042,2025,ASTER: Natural and Multi-language Unit Test Generation with LLMs,W4413360274,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105028950793,10.18653/v1/2025.findings-emnlp.176,2025,LMUNIT: Fine-grained Evaluation with Natural Language Unit Tests,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105038648372,10.1145/3772318.3791222,2026,Data-Prompt Co-Evolution: Growing Test Sets to Refine LLM Behavior,W7128480797,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85175470727,10.18653/v1/2023.findings-acl.540,2023,Aligning Offline Metrics and Human Judgments of Value for Code Generation Models,W4385570331,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105041022812,10.1016/j.infsof.2026.108213,2026,Leveraging Large Language Models for advanced static code analysis: Assessing the feasibility of AI superseding traditional vulnerability detection methods,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105034968634,10.1609/aaai.v40i44.41098,2026,How Much Do Large Language Model Cheat On Evaluation? Benchmarking Overestimation Under The One-Time-Pad-Based Framework,W7138963985,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105020834169,10.1109/CAIBDA65784.2025.11183480,2025,Application of Large Language Model Text Analysis in the Study of Urban Image,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105001156837,10.1109/CCWC62904.2025.10903892,2025,Ethical Challenges and Frameworks in AI-Driven Software Development and Testing,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105052454814,10.1007/s12652-026-05135-x,2026,AI-in-the-human-loop: an operational model for mature human-AI collaboration,W7218444999,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105011066399,10.1109/ETS63895.2025.11049634,2025,LLM-aided Test Generation for Custom Neural Network Hardware Accelerators,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105034363509,10.1109/STA66620.2025.11364940,2025,The Role of Machine Learning and Large Language Models in Software Testing and Validation,W7127419093,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105009061368,10.1109/ICPC66645.2025.00040,2025,Using Large Language Models to Generate Concise and Understandable Test Case Summaries,W4411359990,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105051864462,10.1145/3744916.3787764,2026,"Enabling Global, Human-Centered Explanations for LLMs: From Tokens to Interpretable Code and Test Generation",W4417150976,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105051663722,,2026,A Strategy for Evaluating Machine Translation Models of Different Paradigms; [Una estrategia para evaluar modelos de traducción automática de diferentes paradigmas],,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105042332536,10.25103/jestr.192.20,2026,A Structured LLM-Augmented Data Science Workflow for Automated Software Testing: Design and Evaluation on Defects4J,W7164806010,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105050416145,10.1109/ACCESS.2026.3730474,2026,"When to Invoke an LLM in Industrial Natural-Language-to-DSL Conversion: A Taxonomy-Driven, Confidence-Gated Selective Hybrid for Safety-Critical Avionics Test-Script Authoring",W7207876777,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105003905699,10.1609/aaai.v39i28.35240,2025,Automating Thought of Search: A Journey Towards Soundness and Completeness,W4409361031,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105007598661,10.1016/j.infsof.2025.107785,2025,Translating code with Large Language Models and human-in-the-loop feedback,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105033226705,10.1109/CASCON66301.2025.00128,2025,A Fully Automated Agent for End-to-End Code Translation and Validation,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105045253451,10.1145/3816713.3818807,2026,A Validation and Governance Framework for Multi-Agent LLM Scientific Software Development,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105033345657,10.1109/ISCON65210.2025.11341146,2025,Generative AI Models to Revolutionize Data Engineering: Technical Perspective in Data Transformation,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105004557703,10.1109/CSNT64827.2025.10968728,2025,Coding Agents: A Comprehensive Survey of Automated Bug Fixing Systems and Benchmarks,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105045847106,10.1145/3803437.3805202,2026,Just-in-Time Catching Test Generation at Meta,W7169577568,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105050591778,10.1109/RE68928.2026.00033,2026,Eliciting Requirements for a Conversational Agent to Assist the Software Staging Process in Devops,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105043614729,10.47836/pjst.34.3.10,2026,Automated Generation of Calculation-based Physics Questions Using Text-to-Text Transfer Transformer (T5) for Malaysian Upper Secondary Education,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85199337286,10.1109/TSE.2024.3428972,2024,LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation,W4400878080,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105051681829,10.3390/computers15090582,2026,INDI: A Low-Cost LLM-Enabled Multimodal Campus Guide Robot,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105036003183,10.1109/IISEC69317.2026.11418473,2026,Automating Software Documentation with n8n and Large Language Models: A GitHub and Jira to Confluence Case Study,W7134965393,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105047042919,10.1145/3793302.3797249,2026,AIDev: Studying AI Coding Agents on GitHub,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85211478685,10.1145/3672539.3686341,2024,Pay Attention! Human-Centric Improvements of LLM-based Interfaces for Assisting Software Test Case Development,W4403317951,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105008497705,10.1109/ICSE-Companion66252.2025.00063,2025,Trustworthiness of Large Language Models for Code,W4411271299,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105034643211,10.1109/ASE63991.2025.00250,2025,Clarifying Semantics of In-Context Examples for Unit Test Generation,W7125943867,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105033012018,10.1109/FIE63693.2025.11328463,2025,Comparative Evaluation of Large Language Models for Test-Skeleton Generation,W7123661621,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105047288575,10.1109/SERA69989.2026.11618659,2026,Productivity and Rework in AI-Assisted Front-End UI Development: A Workflow-Based Exploratory Study,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105027868528,10.1177/03611981251411238,2026,The Generative AI Challenge to Highway QA Integrity,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85127254663,10.1145/3491102.3517582,2022,AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts,W3203321135,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85203843828,,2024,R2E: Turning any GitHub Repository into a Programming Agent Environment,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105036984802,10.1109/ICECTE69292.2026.11429460,2026,AI-Enhanced Software Testing: A Human-in-the-Loop Approach for Precision and Efficiency,,M,INC,Eligible
+Scopus,2-s2.0-105042398197,10.1007/s10664-026-10898-0,2026,How students use generative AI for software testing: An observational study,,I,INC,Eligible
+Scopus,2-s2.0-105031139156,10.1093/jamiaopen/ooag016,2026,Agent-based large language model system for extracting structured data from breast cancer synoptic reports: a dual-validation study,W7131425457,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105052028407,10.1109/CMSS69636.2026.11689630,2026,Calibrated-Trust Orchestration: A Meta-Layer Framework for Coordinating Task-Level AI Agents Across the DevSecOps Continuum,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-85218185301,10.1109/SLAAI-ICAI63667.2024.10844968,2024,Quality Assurance for LLM-Generated Test Cases: A Systematic Literature Review,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-85203811789,10.1109/DSN-S60304.2024.00016,2024,Neural Fault Injection: Generating Software Faults from Natural Language,,M,EC4,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105039509016,10.1145/3796315.3796331,2026,Toward Responsible Autonomy: The Opportunities and Obstacles of Large Language Models in Software Engineering,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105047932507,10.1145/3817601,2026,"Preemptive, Buffered, or Guided? Empirical Studies on Human–AI Interaction Strategies for Software Test Case Development",W7162626353,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105041270247,10.19139/soic-2310-5070-3444,2026,Hybrid QLoRA-RAG Architecture for Saudi End-of-Service Benefits Calculation: Synthetic Data Generation and Uncertainty Quantification for Legal Reasoning,W7154059163,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85217622546,10.18653/v1/2024.findings-emnlp.149,2024,Towards Explainable Computerized Adaptive Testing with Large Language Model,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105049670796,10.1109/AITest70988.2026.00041,2026,A Survey on Intelligent Robot Testing and Automation,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"
+Scopus,2-s2.0-105031783386,10.1109/VL-HCC65237.2025.00035,2025,TraceMate: Collaborating with AI in Test-Driven Programming,W7117256667,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85170369393,10.1145/3594806.3594828,2023,Human Experts' Perceptions of Auto-Generated Summarization Quality,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105033635037,10.1109/ICoDSE68111.2025.11351772,2025,Reverse-Engineering and Automating BDD for Modern Software Development with LLMs,,I,INC,Eligible
+Scopus,2-s2.0-105028531364,10.14569/IJACSA.2025.0161272,2025,Engineering Prompt-Orchestrated LLM Workflows for Automated Test Case Generation in Agile Environments,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-85218913856,10.3390/electronics14040794,2025,Resume2Vec: Transforming Applicant Tracking Systems with Intelligent Resume Embeddings for Precise Candidate Matching,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105012090449,10.1145/3734477.3734703,2025,AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components,W4411721803,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105016668966,10.1109/MIPRO65660.2025.11132037,2025,Toward AI Evaluation of Student Essays,W4413917228,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105003141257,10.1109/TSE.2025.3543187,2025,SoapFL: A Standard Operating Procedure for LLM-Based Method-Level Fault Localization,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105042158521,10.1109/ICAISET66439.2026.11541931,2026,Compliance-Aware Generative AI for Life Insurance Document Synthesis: A Reference Architecture,W7163224418,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85192608714,10.1145/3597503.3639157,2024,Enhancing Exploratory Testing by Large Language Model and Knowledge Graph,W4394769383,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105022975116,10.1145/3746059.3747689,2025,ViseGPT: Towards Better Alignment of LLM-generated Data Wrangling Scripts and User Prompts,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105038429942,10.32604/cmc.2026.080737,2026,Constrained LLM-Guided Refactoring of JavaScript: A Smell-Targeted Transformation Framework with Human-in-the-Loop Validation,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105045094262,10.1007/978-3-032-29175-2_23,2026,Evaluating Generative AI Output Quality in Requirements-Based Test Design: A Practitioner Log Study on Failure Modes and Correction Effort,W7167484449,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105036577139,10.1177/20552076261435861,2026,Safety-focused development and evaluation of an LLM sexual well-being chatbot for women: A methods-focused feasibility study,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105007557432,10.1109/ICST62969.2025.10989043,2025,Benchmarking Generative AI Models for Deep Learning Test Input Generation,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-105035024990,10.1016/j.aiia.2026.03.008,2026,Can generative AI make farming decisions? Current status and future pathways – A case study in row crop production with ChatGPT,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105052595505,10.18653/v1/2026.acl-industry.2,2026,"Smarter, not Bigger: Fine-Tuned RAG-Enhanced LLMs for Automotive Hardware-in-the-Loop Testing",W7166819975,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105030929164,10.1007/s11219-026-09744-9,2026,Automated test plan generation using large language models,W7130829146,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105045808517,10.1145/3803784.3804486,2026,BSR-Bench: Benchmarking MLLMs' Basic Spatial Reasoning Capabilities,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85205576550,10.1145/3650212.3680332,2024,Semantic Constraint Inference for Web Form Test Generation,W4402442473,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105049167683,10.1109/BDAI70753.2026.11655132,2026,A Separation-of-Concerns Architecture for Regulated Document Generation: Model-Agnostic Compliance Enforcement in Life Insurance Workflows,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105051174880,10.23726/cij.2026.1833,2026,A Compact Screening Protocol for Human-AI Co-creation in Technical Knowledge Work,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105010294731,10.1109/ICSE55347.2025.00243,2025,Test Intention Guided LLM-Based Unit Test Generation,,M,EC6,Human role not described
+Scopus,2-s2.0-105041563891,10.1109/NQComp68334.2026.11497649,2026,TestAgentX: Leveraging Large Language Models and Reinforcement Learning for Scalable and Adaptive Software Testing,W7160231790,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105037768838,10.1016/j.tele.2026.102405,2026,"Understanding AI's role in society and workplace through technology, trust, and anticipatory emotion factors",,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105007443595,10.1145/3716640.3716657,2025,Analyzing LLM Usage in an Advanced Computing Class in India,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105051544511,10.1109/ICTechED69022.2026.11682881,2026,Generative AI in Software Testing Education: Opportunities and Challenges,,I,INC,Eligible
+Scopus,2-s2.0-105047054073,10.1145/3794763.3794797,2026,PALM: Path-aware LLM-based Test Generation with Comprehension,,M,INC,Eligible
+Scopus,2-s2.0-85196373876,10.1145/3626246.3654727,2024,ChatPipe: Orchestrating Data Preparation Pipelines by Optimizing Human-ChatGPT Interactions,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105041414932,10.65109/SEOT8410,2026,Can Vibe Coding Beat Graduate CS Students? An LLM vs. Human Coding Tournament on Market-driven Strategic Planning,2-s2.0-105052641370,,,duplicate (within Scopus)
+Scopus,2-s2.0-105008644435,10.1109/ACCESS.2025.3581139,2025,A GPT-Based Code Review System With Accurate Feedback for Programming Education,W4411406668,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105028861291,10.18653/v1/2025.wmt-1.57,2025,Evaluation of LLM for English to Hindi Legal Domain Machine Translation Systems,W4416033839,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105015738145,10.1109/MeditCom64437.2025.11104374,2025,Toward Generative 6G Simulation: An Experimental Multi-Agent LLM and ns-3 Integration,W4413904443,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85191431035,10.1109/VR58804.2024.00090,2024,Text2VRScene: Exploring the Framework of Automated Text-driven Generation System for VR Experience,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105035826748,10.1109/SWC65939.2025.00299,2025,Time Travel: LLM-Assisted Semantic Behavior Localization with Git Bisect,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-85199067562,10.1145/3663529.3663801,2024,ChatUniTest: A Framework for LLM-Based Test Generation,W4400484392,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105019044837,10.1109/ROMA66616.2025.11155852,2025,AI-Assisted Personal Wardrobe Management: A Human-Centric Approach to Intelligent Clothing Organization and Style Recommendation,W4414231184,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105015762032,10.1109/ACCESS.2025.3607265,2025,A New Paradigm for Scientific Computing: Accelerated Algorithm Development With Large Reasoning Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105047019867,10.1145/3793302.3793611,2026,Why Are AI Agent-Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study,W7171968711,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105042319607,10.1609/icaps.v36i1.42877,2026,Automating Thought of Search: A Journey Towards Soundness and Completeness,W4405425977,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105022014671,10.23919/softcom66362.2025.11197356,2025,Llm-Codeval: A Framework for Verifying Implementations of Mathematical Functions Using Language Models,,M,INC,Eligible
+Scopus,2-s2.0-105022202630,10.1145/3750069.3750103,2025,Towards Human-Centered RAG: A Study of AI-Supported Testing Practices in Italian Public Administration,,I,INC,Eligible
+Scopus,2-s2.0-85183302699,10.18653/v1/2023.findings-emnlp.901,2023,Beyond Testers' Biases: Guiding Model Testing with Knowledge Bases using LLMs,W4389524488,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105019963041,10.1109/COLCOM66267.2025.11185780,2025,AI Programmer Cooperation in Health Software Development,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105046159720,10.1016/j.jss.2026.113056,2026,AI-assisted assessment of software engineering coursework: Tool-support and an empirical study,W7171098646,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105041863456,10.1007/978-3-032-28110-4_20,2026,Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution,W7163804966,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105034697296,10.1109/ASE63991.2025.00156,2025,"ORFuzz: Fuzzing the ""Other Side"" of LLM Safety - Testing Over-Refusal",W7125972785,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105044006923,10.1109/ACCESS.2026.3709821,2026,AutoTestAI: Bridging Solidity Source Code and Structured Test Specifications for AI-Assisted Smart Contract Validation,,M,EC6,Human role not described
+Scopus,2-s2.0-105047488412,10.1016/j.iot.2026.102066,2026,TGenAI: An LLM-based approach for functional end-to-end test generation for IoT systems,W7202145813,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105004796181,10.3390/app15094907,2025,Research on Hybrid Collaborative Development Model Based on Multi-Dimensional Behavioral Information,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105022626866,10.1145/3663547.3746362,2025,A11yShape: AI-Assisted 3-D Modeling for Blind and Low-Vision Programmers,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105018743838,10.18293/SEKE2025-053,2025,Beyond Test Cases: Multi-Agent Collaboration for Detecting Defects in Full-Score Code Implementations,,EC3,,Human only as research evaluator
+Scopus,2-s2.0-85201262573,10.1109/TSE.2024.3440503,2024,Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105034666685,10.1109/ASE63991.2025.00165,2025,Automated Generation of Issue-Reproducing Tests by Combining LLMs and Search-Based Testing,,I,INC,Eligible
+Scopus,2-s2.0-105037350117,10.1007/s11192-026-05633-x,2026,Can ChatGPT evaluate research environments? Evidence from REF2021,W4417141696,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105049597673,10.1109/MS.2026.3696850,2026,Adopting Large Language Model Agents in Software Testing: A User-Centered Framework,,M,EC6,Human role not described
+Scopus,2-s2.0-105035485793,10.1049/sfw2/3348017,2026,Refactoring Object-Oriented Software With ChatGPT: An Empirical Study,W7147263675,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-105008497196,10.1109/ICSE-Companion66252.2025.00079,2025,CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph,,M,EC6,Human role not described
+Scopus,2-s2.0-105020008568,,2025,Improving ARDS Diagnosis Through Context-Aware Concept Bottleneck Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105031914573,10.1109/ICTAI66417.2025.00171,2025,Accelerating Educational Assessment in Software Engineering through Human-AI Collaboration,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105044709980,10.4271/2026-01-0777,2026,Multi-Agent LLM Architecture for Systems Engineering Automation,W7166716646,,,duplicate (in OpenAlex)
+Scopus,2-s2.0-85210555721,10.1109/SecDev61143.2024.00008,2024,Repairing Infrastructure-as-Code using Large Language Models,,EC1,,Not about testing a software artefact
+Scopus,2-s2.0-105020808198,,2025,Human-Under-Test and Continual Bidirectional Assessment for Co-development of Human-AI Systems,,EC4,,"Secondary, conceptual, short paper, thesis or preprint"

@@ -1,41 +1,56 @@
 {
- "db_identified": 192,
- "duplicates": 4,
- "screened": 188,
- "excluded_ta": 141,
+ "db_identified": 389,
+ "openalex_identified": 192,
+ "scopus_identified": 197,
+ "duplicates": 88,
+ "duplicates_detail": {
+  "openalex_internal": 4,
+  "scopus_in_OpenAlex": 82,
+  "scopus_found_by_hand": 1,
+  "scopus_within_Scopus": 1
+ },
+ "screened": 301,
+ "screened_openalex": 188,
+ "screened_scopus": 113,
+ "excluded_ta": 233,
  "ta_breakdown": {
-  "EC1": 99,
+  "EC1": 174,
   "EC2": 1,
-  "EC3": 6,
-  "EC4": 35,
-  "I": 10,
-  "M": 37
+  "EC3": 12,
+  "EC4": 46,
+  "I": 20,
+  "M": 48
  },
- "sought": 47,
+ "sought": 68,
  "not_retrieved": 5,
- "assessed": 42,
+ "assessed": 63,
  "excluded_full": {
-  "EC3": 13,
-  "EC4": 6,
+  "EC3": 14,
+  "EC4": 7,
   "EC5": 1,
-  "EC6": 1
+  "EC6": 5
  },
- "eligible_db": 21,
- "sb_identified": 110,
- "sb_excluded_title": 101,
- "sb_sought": 9,
- "sb_not_retrieved": 1,
- "sb_assessed": 8,
+ "eligible_db": 36,
+ "eligible_by_source": {
+  "OpenAlex": 21,
+  "Scopus": 15
+ },
+ "sb_identified": 192,
+ "sb_excluded_title": 168,
+ "sb_sought": 24,
+ "sb_not_retrieved": 2,
+ "sb_assessed": 22,
  "sb_excluded": {
-  "EC3": 4,
-  "EC4": 2,
-  "EC6": 1
+  "EC2": 1,
+  "EC3": 8,
+  "EC4": 3,
+  "EC6": 4
  },
- "sb_eligible": 1,
- "eligible_total": 22,
- "below_qa": 2,
- "included": 20,
- "qa_mean": 4.42,
+ "sb_eligible": 6,
+ "eligible_total": 42,
+ "below_qa": 7,
+ "included": 35,
+ "qa_mean": 4.47,
  "qa_min": 3.0,
  "qa_max": 6.0
 }

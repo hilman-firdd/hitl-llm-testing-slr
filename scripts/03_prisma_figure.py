@@ -18,7 +18,7 @@ ex=P["excluded_full"]; sb=P["sb_excluded"]
 for y,h,t in [(92,18,"Identification"),(38,52,"Screening"),(2,34,"Included")]:
     box(0,y,5,h,"",fc="#dce6f2"); ax.text(2.5,y+h/2,t,rotation=90,ha="center",va="center",fontsize=7,fontweight="bold")
 # database column
-box(7,94,32,14,f"Records identified from\nOpenAlex (n = {P['db_identified']})\n2021–2026, journal and\nconference papers")
+box(7,94,32,14,f"Records identified from\ndatabases (n = {P['db_identified']}):\nOpenAlex (n = {P['openalex_identified']})\nScopus (n = {P['scopus_identified']})")
 box(43,94,22,14,f"Duplicates removed\nbefore screening\n(n = {P['duplicates']})"); arr(39,101,43,101)
 box(7,78,32,10,f"Records screened\n(title and abstract)\n(n = {P['screened']})"); arr(23,94,23,88)
 box(43,78,22,10,f"Records excluded\n(n = {P['excluded_ta']})"); arr(39,83,43,83)
@@ -27,10 +27,10 @@ box(43,64,22,10,f"Reports not retrieved\n(n = {P['not_retrieved']})"); arr(39,69
 box(7,46,32,14,f"Reports assessed for\neligibility (n = {P['assessed']})"); arr(23,64,23,60)
 box(43,40,22,20,f"Excluded (n = {sum(ex.values())}):\nEC3 (n = {ex.get('EC3',0)})\nEC4 (n = {ex.get('EC4',0)})\nEC5 (n = {ex.get('EC5',0)})\nEC6 (n = {ex.get('EC6',0)})"); arr(39,53,43,53)
 # other methods column
-box(68,94,31,14,f"Records identified from\ncitation searching\n(backward and forward)\n(n = {P['sb_identified']})")
+box(68,94,31,14,f"Records identified from\ncitation searching,\ntargeted and SOL searches\n(n = {P['sb_identified']})")
 box(68,78,31,10,f"Excluded by title or already\nidentified (n = {P['sb_excluded_title']})"); arr(83.5,94,83.5,88)
 box(68,64,31,10,f"Reports sought (n = {P['sb_sought']})\nnot retrieved (n = {P['sb_not_retrieved']})"); arr(83.5,78,83.5,74)
-box(68,40,31,20,f"Reports assessed (n = {P['sb_assessed']})\nExcluded:\nEC3 (n = {sb.get('EC3',0)})\nEC4 (n = {sb.get('EC4',0)})\nEC6 (n = {sb.get('EC6',0)})"); arr(83.5,64,83.5,60)
+box(68,40,31,20,f"Reports assessed (n = {P['sb_assessed']})\nExcluded (n = {sum(sb.values())}):\n"+"\n".join(f"{k} (n = {v})" for k,v in sorted(sb.items()))); arr(83.5,64,83.5,60)
 # included
 box(7,22,58,12,f"Studies eligible for quality assessment (n = {P['eligible_total']})\nBelow quality threshold of {QA_THRESHOLD} (n = {P['below_qa']})"); arr(23,46,23,34); arr(83.5,40,60,34)
 box(7,4,58,12,f"Studies included in the synthesis (n = {P['included']})\nmean QA score {P['qa_mean']} (range {P['qa_min']:.1f}–{P['qa_max']:.1f})",fc="#eef3ea",bold=True); arr(36,22,36,16)

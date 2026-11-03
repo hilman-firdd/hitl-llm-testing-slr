@@ -1,51 +1,72 @@
-openalex_id,source,decision,note
-W7162626353,database,INC,
-W4400878080,database,INC,
-W4394769383,database,INC,
-W4389524488,database,INC,
-W7169577568,database,INC,
-W7167484449,database,INC,
-W7125019428,database,INC,
-W4414276135,database,INC,
-W7131081022,database,INC,
-W7160231790,database,INC,
-W7215051543,database,INC,
-W7128480797,database,INC,
-W7207876777,database,INC,
-W7202145813,database,INC,
-W7166819975,database,INC,
-W7127947778,database,INC,
-W7127419093,database,INC,
-W7164806010,database,INC,
-W4415923903,database,INC,
-W4411721803,database,INC,
-W7163549035,database,INC,not retrieved (no abstract or full text accessible)
-W7169832189,database,NR,
-W7130829146,database,NR,
-W7163804966,database,NR,
-W4402115786,database,NR,
-W4404724144,database,NR,excluded with reason
-W4403317951,database,EC5,"UIST poster, earlier version of the TOCHI article"
-W7202273573,database,EC3,
-W7221152725,database,EC3,
-W7204182460,database,EC3,
-W7163693454,database,EC3,
-W7134061324,database,EC3,
-W7125979146,database,EC3,
-W7123661621,database,EC3,
-W4415709066,database,EC3,
-W4411271549,database,EC3,
-W4411233861,database,EC3,
-W4411359990,database,EC3,
-W4409163756,database,EC3,
-W4416429199,database,EC3,
-W7220194038,database,EC4,
-W7215413837,database,EC4,
-W7106131171,database,EC4,
-W4411902413,database,EC4,
-W4410776557,database,EC4,
-W7160146226,database,EC4,
-W7168249476,database,EC6,
+record_id,source,decision,note
+W7162626353,openalex,INC,
+W4400878080,openalex,INC,
+W4394769383,openalex,INC,
+W4389524488,openalex,INC,
+W7169577568,openalex,INC,
+W7167484449,openalex,INC,
+W7125019428,openalex,INC,
+W4414276135,openalex,INC,
+W7131081022,openalex,INC,
+W7160231790,openalex,INC,
+W7215051543,openalex,INC,
+W7128480797,openalex,INC,
+W7207876777,openalex,INC,
+W7202145813,openalex,INC,
+W7166819975,openalex,INC,
+W7127947778,openalex,INC,
+W7127419093,openalex,INC,
+W7164806010,openalex,INC,
+W4415923903,openalex,INC,
+W4411721803,openalex,INC,
+W7163549035,openalex,INC,not retrieved (no abstract or full text accessible)
+W7169832189,openalex,NR,
+W7130829146,openalex,NR,
+W7163804966,openalex,NR,
+W4402115786,openalex,NR,
+W4404724144,openalex,NR,excluded with reason
+W4403317951,openalex,EC5,"UIST poster, earlier version of the TOCHI article"
+W7202273573,openalex,EC3,
+W7221152725,openalex,EC3,
+W7204182460,openalex,EC3,
+W7163693454,openalex,EC3,
+W7134061324,openalex,EC3,
+W7125979146,openalex,EC3,
+W7123661621,openalex,EC3,
+W4415709066,openalex,EC3,
+W4411271549,openalex,EC3,
+W4411233861,openalex,EC3,
+W4411359990,openalex,EC3,
+W4409163756,openalex,EC3,
+W4416429199,openalex,EC3,
+W7220194038,openalex,EC4,
+W7215413837,openalex,EC4,
+W7106131171,openalex,EC4,
+W4411902413,openalex,EC4,
+W4410776557,openalex,EC4,
+W7160146226,openalex,EC4,
+W7168249476,openalex,EC6,
+2-s2.0-105050688018,scopus,INC,
+2-s2.0-105001687420,scopus,INC,
+2-s2.0-105032444073,scopus,INC,
+2-s2.0-105047319514,scopus,INC,
+2-s2.0-105042398197,scopus,INC,
+2-s2.0-105033635037,scopus,INC,
+2-s2.0-105051544511,scopus,INC,
+2-s2.0-105047054073,scopus,INC,
+2-s2.0-105022014671,scopus,INC,
+2-s2.0-105034666685,scopus,INC,
+2-s2.0-105016246391,scopus,INC,
+2-s2.0-105008496222,scopus,INC,
+2-s2.0-105036953818,scopus,INC,
+2-s2.0-105036984802,scopus,INC,
+2-s2.0-105022202630,scopus,INC,
+2-s2.0-105010325514,scopus,EC3,UX-LLM: experts rate predictions; focus group reacts to the tool
+2-s2.0-85203811789,scopus,EC4,"Neural fault injection: short supplemental paper, method proposal without evaluation"
+2-s2.0-105010294731,scopus,EC6,IntUT: source of test intentions and developers' role not described
+2-s2.0-105044006923,scopus,EC6,"AutoTestAI: review intended downstream, no human step in the study"
+2-s2.0-105049597673,scopus,EC6,Adoption framework from a survey; human roles not described in enough detail to code
+2-s2.0-105008497196,scopus,EC6,"CKGFuzzer: crash review workload estimated, no human step described"
 W4400484796,citation_search,INC,TestGen-LLM at Meta
 W4388483618,citation_search,EC4,"Feldt et al. 2023, vision paper with an informal demonstration"
 W7168712004,citation_search,EC4,"Enoiu & Feldt 2026, conceptual taxonomy, no evaluation"
@@ -55,3 +76,18 @@ W4414984180,citation_search,EC3,"IGEX, fully automated"
 W4411449925,citation_search,EC3,automated soap opera testing
 W4402218589,citation_search,EC6,"Kashef, human role not described"
 W7169844650,citation_search,NR,no abstract; PDF without text layer at search time (arXiv version appeared later)
+W4401908463,citation_search,INC,"supplementary search 21 Oct 2026: Santos et al. 2024 ICST, practitioner survey (full text read)"
+W4407948501,citation_search,INC,"supplementary search 21 Oct 2026: Haldar et al. 2025 IEEE Access, students with ChatGPT/Copilot"
+W4414276255,citation_search,EC3,"supplementary search 21 Oct 2026: Image2Test; full text (26 Oct 2026): researchers set objectives and accepted all outputs, humans only research raters"
+W4399205854,citation_search,EC6,"supplementary search 21 Oct 2026: de Lima Junior et al. 2024, case study; human role not described"
+W7202186449,citation_search,EC2,supplementary search 21 Oct 2026: Tangent: testing practices for LLM agent apps; no LLM used to test
+W7117468025,citation_search,EC4,supplementary search 21 Oct 2026: AI in GUI-based testing: survey of techniques and tools
+W4399795060,citation_search,EC3,supplementary search 21 Oct 2026: testers' assumptions compared with chatbots; no role in a workflow
+W4411552143,citation_search,EC6,"supplementary search 21 Oct 2026: automotive API testing, full automation; no human step described"
+W4390188013,citation_search,EC6,supplementary search 21 Oct 2026: test script generation and migration; no human step described
+W4414275923,citation_search,INC,SOL search 26 Oct 2026: industrial test team using Llama 3.1
+W4417036956,citation_search,INC,SOL search: custom ChatGPT agent experience report
+W4403585153,citation_search,INC,SOL search: AutomTest 3.0
+W4417037175,citation_search,EC3,"SOL search: ARTeMIS, automated supervision only"
+W4411489711,citation_search,EC3,SOL search: testers review outputs only for the evaluation
+W7202259338,citation_search,NR,"SOL search: Cronos, full text not retrieved"

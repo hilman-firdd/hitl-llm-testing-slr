@@ -1,7 +1,11 @@
 date,source,query_or_seed,filters,results
 2026-10-20,OpenAlex (title and abstract),data/search/openalex_oql.txt,2021-2026; article or conference paper,192
+2026-10-20,Scopus (TITLE-ABS-KEY),data/search/scopus_blocks.txt (#1 AND #2 AND #3),2021-2026; article or conference paper; English,197
 2026-10-20,OpenAlex citation search (backward),W7162626353,published 2021 or later,44
 2026-10-20,OpenAlex citation search (backward),W7169577568,published 2021 or later,13
 2026-10-20,OpenAlex citation search (forward),W4400878080,topic T10743 (Software Testing and Debugging Techniques),20
 2026-10-20,OpenAlex citation search (forward),W4394769383,,23
 2026-10-20,OpenAlex citation search (forward),W4389524488,,10
+2026-10-21,OpenAlex citation search (targeted search),data/search/supplementary_oql.txt,practitioner or tester studies; 2021-2026; article or conference paper,20
+2026-10-21,OpenAlex citation search (backward),W7125019428,published 2021 or later,21
+2026-10-26,OpenAlex citation search (SOL search (DOI prefix 10.5753)),data/search/sol_search.txt,LLM AND testing blocks in title/abstract; 2021-2026,41

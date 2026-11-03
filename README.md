@@ -10,10 +10,10 @@ studies, roles, and evaluation levels, the quality-threshold sensitivity check, 
 | What | Value |
 |---|---|
 | Search date | 20 October 2026 |
-| Sources | OpenAlex (title and abstract) plus backward and forward citation searching; Scopus pending |
-| Records identified | 192 (database) + 110 (citation searching) |
-| Studies eligible / included | 22 / 20 (quality threshold 3.0 of 6) |
-| Reporting guideline | PRISMA 2020 |
+| Sources | OpenAlex (title and abstract), Scopus (TITLE-ABS-KEY), citation searching, a targeted search for practitioner studies, and a completeness search of SBC OpenLib (via OpenAlex, DOI prefix 10.5753) |
+| Records identified | 389 from databases (OpenAlex 192, Scopus 197; 88 duplicates) + 192 from citation searching, the practitioner search, and the SBC OpenLib search |
+| Studies eligible / included | 42 / 35 (quality threshold 3.0 of 6); 25 read in full text, 10 from abstracts |
+| Reporting guideline | SEGRESS (PRISMA 2020 adapted to software engineering); checklist in `protocol/SEGRESS_checklist.md` |
 
 ---
 
@@ -23,7 +23,7 @@ You need **Python 3.10 or newer** (check with `python --version`).
 
 ```bash
 # 1. Get the code
-git clone https://github.com/<username>/hitl-llm-testing-slr.git
+git clone https://github.com/hilman-firdd/hitl-llm-testing-slr.git
 cd hitl-llm-testing-slr
 #    (or click "Code > Download ZIP" on GitHub and unzip it)
 
@@ -43,18 +43,19 @@ Expected end of the output:
 
 ```
 === 01_prisma_counts.py ===
-  db_identified      192
+  db_identified        389
   ...
-  included           20
-  qa_mean            4.42
+  included             35
+  qa_mean              4.47
 === 02_synthesis.py ===
-Included studies: 20 (mean QA 4.42)
-  roles: {'Reviewer': 11, 'Specifier': 6, 'Explorer': 5, 'Oracle': 5, 'Teacher': 4, 'Editor': 3}
+Included studies: 35 (mean QA 4.47)
+  roles: {'Reviewer': 24, 'Specifier': 18, 'Editor': 9, 'Oracle': 8, 'Explorer': 6, 'Teacher': 5}
 ...
 Done. Results are in outputs/.
 ```
 
-Steps 5 and 6 print "skipped" until their input files exist (see sections 5 and 6).
+Step 5 (`06_merge_scopus.py`) needs the raw Scopus export, which is not redistributed (section 6) and is skipped when the file is
+absent. The metadata needed for steps 1-4 is already in `data/raw/scopus_records.csv`.
 
 ---
 
@@ -63,30 +64,33 @@ Steps 5 and 6 print "skipped" until their input files exist (see sections 5 and 
 ```
 hitl-llm-testing-slr/
 ├── README.md                     this tutorial
-├── run_all.py                    runs steps 01 to 06
+├── run_all.py                    runs the pipeline (steps 01 to 04, then 06)
 ├── requirements.txt              openpyxl, matplotlib
 ├── protocol/protocol.md          review protocol (RQs, PICOC, criteria, QA items, search log)
 ├── data/
 │   ├── search/
 │   │   ├── openalex_oql.txt      exact OpenAlex query (OQL)
-│   │   └── scopus_blocks.txt     Scopus block queries (#1 LLM, #2 testing, #3 human)
+│   │   ├── scopus_blocks.txt     Scopus block queries (#1 LLM, #2 testing, #3 human)
+│   │   └── supplementary_oql.txt practitioner search and backward search (21 Oct 2026)
 │   ├── raw/
-│   │   ├── openalex_records.csv          192 records returned by the search (metadata only)
-│   │   └── citation_search_seeds.csv     5 seeds used for citation searching
+│   │   ├── openalex_records.csv          192 OpenAlex records (metadata only)
+│   │   ├── scopus_records.csv            197 Scopus records (metadata only, no abstracts)
+│   │   └── citation_search_seeds.csv     citation-search seeds and the supplementary search
 │   ├── decisions/
-│   │   ├── title_abstract_screening.csv  one decision per record (I, M, EC1-EC4)
-│   │   └── fulltext_eligibility.csv      full-text decisions (INC, NR, EC3-EC6) for both sources
+│   │   ├── openalex_title_abstract_screening.csv  one decision per OpenAlex record (I, M, EC1-EC4)
+│   │   ├── scopus_title_abstract_screening.csv    one decision per new Scopus record (I, M, EC1-EC4, DUP)
+│   │   └── fulltext_eligibility.csv      full-text decisions (INC, NR, EC3-EC6) for all sources
 │   ├── extraction/
-│   │   └── extraction_quality.csv        22 eligible studies: coding + QA1-QA6 scores
-│   └── scopus/                           put the Scopus CSV export here (step 6)
-├── agreement/                            put the second-reviewer workbook here (step 5)
+│   │   ├── extraction_quality.csv        42 eligible studies: coding + QA1-QA6 scores
+│   │   ├── fulltext_recoding_log.csv     14 studies re-coded from full text (old vs new, verified)
+│   │   └── fulltext_evidence/            short verbatim excerpts per re-coded study (see its README)
+│   └── scopus/                           put the raw Scopus CSV export here (step 6; not distributed)
 ├── scripts/
 │   ├── common.py                 paths, loaders, code labels
 │   ├── 01_prisma_counts.py
 │   ├── 02_synthesis.py
 │   ├── 03_prisma_figure.py
 │   ├── 04_supplementary_xlsx.py
-│   ├── 05_kappa.py
 │   └── 06_merge_scopus.py
 └── outputs/                              everything below is generated
     ├── prisma_counts.json
@@ -105,18 +109,18 @@ hitl-llm-testing-slr/
 
 | Step | Script | Reads | Writes | Used in the article |
 |---|---|---|---|---|
-| 1 | `01_prisma_counts.py` | raw records, decisions, extraction | `prisma_counts.json`, `screening_log.csv`, `search_log.csv` | Figure 1, Section 3.1 |
-| 2 | `02_synthesis.py` | extraction | `descriptives.json`, `tables/*.csv` | Tables 5, 6, 7; Sections 3.2-3.4; sensitivity check |
+| 1 | `01_prisma_counts.py` | raw records, decisions, extraction | `prisma_counts.json`, `screening_log.csv`, `search_log.csv` | Figure 1, Section 5.1 |
+| 2 | `02_synthesis.py` | extraction | `descriptives.json`, `tables/*.csv` | Tables 6, 7, 8; Sections 5.2-5.4; sensitivity check |
 | 3 | `03_prisma_figure.py` | `prisma_counts.json` | `figures/prisma_flow.png` | Figure 1 |
 | 4 | `04_supplementary_xlsx.py` | all of the above | `Supplementary_HITL_SLR.xlsx` | Supplementary material |
-| 5 | `05_kappa.py` | `agreement/Interrater_Agreement_HITL_SLR.xlsx` | `kappa.json` | Sections 2.5 and 2.7 |
-| 6 | `06_merge_scopus.py` | `data/scopus/*.csv` | `scopus_check.json`, `scopus_new_records.csv` | Search update |
+| 5 | `06_merge_scopus.py` | `data/scopus/*.csv` (your own export) | `scopus_check.json`, `scopus_new_records.csv` | Search update (optional) |
 
 Each script can also be run on its own, for example `python scripts/02_synthesis.py`.
 
 How the main numbers are derived:
 
-- **Duplicates**: titles are lower-cased and stripped of everything except letters and digits; the first occurrence is kept.
+- **Duplicates**: OpenAlex records are compared by normalised title (lower-cased, letters and digits only). Scopus records are
+  compared by DOI (or normalised title) within Scopus and then against OpenAlex; one republished paper was flagged by hand (`DUP`).
 - **Sought for full text**: title/abstract decision `I` (include) or `M` (unclear).
 - **Included**: eligible studies with a quality score of at least 3.0 out of 6 (six items scored 1, 0.5, or 0).
 - **Sensitivity**: the role and evaluation counts are recomputed at thresholds 2.5, 3.0, 3.5, and 4.0.
@@ -158,21 +162,15 @@ How the main numbers are derived:
 
 ---
 
-## 5. Inter-rater agreement (Cohen's kappa)
+## 5. Second reviewer
 
-A second author screened a 20% stratified random sample (38 of 188 records, seed 20261020) and independently
-coded the 20 included studies in an Excel workbook. The workbook computes kappa with formulas.
-To check it with Python:
-
-1. Save the returned workbook as `agreement/Interrater_Agreement_HITL_SLR.xlsx`.
-2. Run `python scripts/05_kappa.py`.
-3. Compare `outputs/kappa.json` with the `Kappa` sheet; the values must be identical.
-
-Interpretation follows Landis and Koch (1977): 0.61-0.80 substantial, above 0.80 almost perfect.
+No independent second reviewer coded the studies, so no agreement statistic (Cohen's kappa) is reported. Screening, eligibility,
+quality appraisal, and coding were done by the first author with AI assistance (Claude, Anthropic) and checked by the first author
+against the sources. The article discusses this single-reviewer design as the main threat to validity.
 
 ---
 
-## 6. Adding the Scopus search
+## 6. Checking a Scopus export (optional)
 
 1. Open Scopus > **Advanced document search**.
 2. Run each block in `data/search/scopus_blocks.txt` separately (#1, #2, #3).
@@ -181,6 +179,8 @@ Interpretation follows Landis and Koch (1977): 0.61-0.80 substantial, above 0.80
 5. Export **only the combined set**: Export > CSV > select all information.
 6. Save the CSV in `data/scopus/` and run `python scripts/06_merge_scopus.py`.
 
+The Scopus export itself is licensed and is therefore **not included** in this repository; `data/raw/scopus_records.csv` holds only
+the bibliographic metadata (EID, DOI, year, source, title, authors) of the 197 records used in the review.
 The script checks that the export really is the combined set. At least 80% of records must contain a term from
 all three blocks. It then removes records already found in OpenAlex (by DOI or normalised title) and writes the
 rest to `outputs/scopus_new_records.csv` with an empty `decision` column for screening.
@@ -190,25 +190,34 @@ rest to `outputs/scopus_new_records.csv` with an empty `decision` column for scr
 ## 7. Reproducing the database search
 
 The OpenAlex query in `data/search/openalex_oql.txt` was run on 20 October 2026 through the OpenAlex query
-language (title and abstract fields; 2021-2026; journal articles and conference papers). OpenAlex grows daily, so a
-rerun today will return more records. `data/raw/openalex_records.csv` is the exact snapshot used in the review.
+language (title and abstract fields; 2021-2026; journal articles and conference papers). The Scopus blocks in
+`data/search/scopus_blocks.txt` were run the same day and combined as `#1 AND #2 AND #3`. Both indexes grow daily, so a
+rerun today will return more records. `data/raw/` holds the exact snapshots used in the review.
 
 ---
 
 ## 8. Notes and limitations
 
-- Abstracts are not redistributed; each record can be opened through its DOI or OpenAlex ID.
+- Scopus abstracts and the raw Scopus export are not redistributed (licensed); each record can be opened through its DOI, OpenAlex ID, or Scopus EID.
+- Quotations from the studies in `data/extraction/fulltext_evidence/` are shortened to under 15 words; the full text is available through the DOI.
+- Evidence for 10 of the 35 included studies comes from abstracts or publisher pages (column `evidence` = A). On 26 Oct 2026, 14 studies first coded
+  from abstracts were read in full and re-coded; one was excluded (EC3). See `data/extraction/fulltext_recoding_log.csv`.
+- The supplementary search (21 Oct 2026) was added after the main screening because the human block missed practice studies;
+  its records are reported with citation searching as "other methods".
+- The SBC OpenLib completeness search (26 Oct 2026; 41 records, 3 included) is in `data/search/sol_search.txt` and
+  `data/decisions/sol_title_abstract_screening.csv`.
 - For citation searching, the 101 records excluded by title (or already identified) are reported as counts per
   seed. The 9 reports sought in full are listed individually in `fulltext_eligibility.csv`.
-- Screening and extraction were done by the first author. Agreement with a second author is reported through step 5.
+- Screening and extraction were done by the first author with AI assistance (Claude) and checked by the first author. There was no
+  independent second reviewer (section 5).
 
 ---
 
 ## 9. License and citation
 
 - Code: MIT. Data and outputs: CC BY 4.0 (see `LICENSE`). OpenAlex metadata is CC0.
-- Please cite the article and this repository (see `CITATION.cff`). To get a permanent DOI, connect the
-  repository to Zenodo and create a GitHub release.
+- Please cite the article and this repository (see `CITATION.cff`). The version used in the article is release **v1.0.0**,
+  archived on Zenodo (DOI: see the badge or `CITATION.cff` once available).
 
 Corresponding author: Hilman Firdaus, Magister Programme of Informatics, Universitas Muhammadiyah Semarang,
 19182630014@student.unimus.ac.id

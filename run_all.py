@@ -6,7 +6,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE / "scripts"))
 STEPS = ["01_prisma_counts.py", "02_synthesis.py", "03_prisma_figure.py", "04_supplementary_xlsx.py",
-         "05_kappa.py", "06_merge_scopus.py"]
+         "06_merge_scopus.py"]
 
 for step in STEPS:
     print(f"\n=== {step} ===")
