@@ -6,7 +6,7 @@ repository-code: "https://github.com/hilman-firdd/hitl-llm-testing-slr"
 abstract: "Data, decisions, extraction sheet, and Python scripts that reproduce every count, table, and figure of the systematic literature review on human-in-the-loop software testing with large language models (35 included studies)."
 version: 1.0.2
 date-released: 2026-11-03
-doi: 10.5281/zenodo.23917944
+doi: 10.5281/zenodo.24084083
 license: CC-BY-4.0
 authors:
   - family-names: Firdaus

@@ -221,7 +221,7 @@ rerun today will return more records. `data/raw/` holds the exact snapshots used
 
 - Code: MIT. Data and outputs: CC BY 4.0 (see `LICENSE`). OpenAlex metadata is CC0.
 - Please cite the article and this repository (see `CITATION.cff`). The version used in the article is release **v1.0.2**,
-  archived on Zenodo (DOI: [10.5281/zenodo.23917944](https://doi.org/10.5281/zenodo.23917944)).
+  archived on Zenodo (DOI: [10.5281/zenodo.24084083](https://doi.org/10.5281/zenodo.24084083)).
 
 Corresponding author: Hilman Firdaus, Magister Programme of Informatics, Universitas Muhammadiyah Semarang,
 19182630014@student.unimus.ac.id
