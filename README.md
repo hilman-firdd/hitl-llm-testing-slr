@@ -64,7 +64,7 @@ absent. The metadata needed for steps 1-4 is already in `data/raw/scopus_records
 ```
 hitl-llm-testing-slr/
 ├── README.md                     this tutorial
-├── run_all.py                    runs the pipeline (steps 01 to 04, then 06)
+├── run_all.py                    runs the pipeline (steps 01 to 04, then 06 and 07)
 ├── requirements.txt              openpyxl, matplotlib
 ├── protocol/protocol.md          review protocol (RQs, PICOC, criteria, QA items, search log)
 ├── data/
@@ -81,7 +81,7 @@ hitl-llm-testing-slr/
 │   │   ├── scopus_title_abstract_screening.csv    one decision per new Scopus record (I, M, EC1-EC4, DUP)
 │   │   └── fulltext_eligibility.csv      full-text decisions (INC, NR, EC3-EC6) for all sources
 │   ├── extraction/
-│   │   ├── extraction_quality.csv        42 eligible studies: coding + QA1-QA6 scores
+│   │   ├── extraction_quality.csv        42 eligible studies: coding + QA1-QA6 scores + isolated flag
 │   │   ├── fulltext_recoding_log.csv     14 studies re-coded from full text (old vs new, verified)
 │   │   └── fulltext_evidence/            short verbatim excerpts per re-coded study (see its README)
 │   └── scopus/                           put the raw Scopus CSV export here (step 6; not distributed)
@@ -91,16 +91,19 @@ hitl-llm-testing-slr/
 │   ├── 02_synthesis.py
 │   ├── 03_prisma_figure.py
 │   ├── 04_supplementary_xlsx.py
-│   └── 06_merge_scopus.py
+│   ├── 06_merge_scopus.py
+│   └── 07_robustness.py          checklist coverage, venue coverage, CIs, full-text-only counts
 └── outputs/                              everything below is generated
     ├── prisma_counts.json
     ├── screening_log.csv
     ├── search_log.csv
     ├── descriptives.json
+    ├── fulltext_primary.json
     ├── Supplementary_HITL_SLR.xlsx
     ├── figures/prisma_flow.png
     └── tables/ included_studies.csv, roles_by_activity.csv, evaluation_levels.csv,
-                intervention_points.csv, sensitivity_qa.csv
+                intervention_points.csv, sensitivity_qa.csv,
+                checklist_coverage.csv, venue_coverage.csv, proportion_cis.csv, fulltext_primary.csv
 ```
 
 ---
@@ -114,6 +117,7 @@ hitl-llm-testing-slr/
 | 3 | `03_prisma_figure.py` | `prisma_counts.json` | `figures/prisma_flow.png` | Figure 1 |
 | 4 | `04_supplementary_xlsx.py` | all of the above | `Supplementary_HITL_SLR.xlsx` | Supplementary material |
 | 5 | `06_merge_scopus.py` | `data/scopus/*.csv` (your own export) | `scopus_check.json`, `scopus_new_records.csv` | Search update (optional) |
+| 6 | `07_robustness.py` | extraction | `tables/checklist_coverage.csv`, `tables/venue_coverage.csv`, `tables/proportion_cis.csv`, `tables/fulltext_primary.csv`, `fulltext_primary.json` | Table 12; Sections 5.2, 5.6, 6.1 (checklist coverage, venue coverage, Wilson CIs, full-text-only counts) |
 
 Each script can also be run on its own, for example `python scripts/02_synthesis.py`.
 
@@ -216,8 +220,8 @@ rerun today will return more records. `data/raw/` holds the exact snapshots used
 ## 9. License and citation
 
 - Code: MIT. Data and outputs: CC BY 4.0 (see `LICENSE`). OpenAlex metadata is CC0.
-- Please cite the article and this repository (see `CITATION.cff`). The version used in the article is release **v1.0.0**,
-  archived on Zenodo (DOI: see the badge or `CITATION.cff` once available).
+- Please cite the article and this repository (see `CITATION.cff`). The version used in the article is release **v1.0.2**,
+  archived on Zenodo (DOI: [10.5281/zenodo.23917944](https://doi.org/10.5281/zenodo.23917944)).
 
 Corresponding author: Hilman Firdaus, Magister Programme of Informatics, Universitas Muhammadiyah Semarang,
 19182630014@student.unimus.ac.id

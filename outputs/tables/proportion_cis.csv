@@ -1,0 +1,10 @@
+indicator,k,n,pct,ci95_low,ci95_high
+Reviewer is coded (all 35),24,35,68.6,52.0,81.4
+Person acts before or during generation (all 35),27,35,77.1,61.0,87.9
+Person only after generation (all 35),8,35,22.9,12.1,39.0
+"After-only, full text",3,25,12.0,4.2,30.0
+"After-only, abstract",5,10,50.0,23.7,76.3
+"One role only, full text",7,25,28.0,14.3,47.6
+"One role only, abstract",6,10,60.0,31.3,83.2
+"Human step unmeasured (E3), full text",1,25,4.0,0.7,19.5
+"Human step unmeasured (E3), abstract",5,10,50.0,23.7,76.3

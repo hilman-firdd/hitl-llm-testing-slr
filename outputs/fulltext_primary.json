@@ -1,0 +1,22 @@
+{
+ "n_fulltext": 25,
+ "roles_fulltext": {
+  "Specifier": 16,
+  "Explorer": 5,
+  "Reviewer": 17,
+  "Editor": 8,
+  "Oracle": 7,
+  "Teacher": 3
+ },
+ "points_fulltext": {
+  "Before": 16,
+  "Loop": 16,
+  "After": 19
+ },
+ "evaluation_fulltext": {
+  "E1": 9,
+  "E2": 10,
+  "E3": 1,
+  "E4": 5
+ }
+}

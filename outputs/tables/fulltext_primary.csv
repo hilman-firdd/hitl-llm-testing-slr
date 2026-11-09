@@ -1,0 +1,14 @@
+dimension,label,n_fulltext
+role,Specifier,16
+role,Explorer,5
+role,Reviewer,17
+role,Editor,8
+role,Oracle,7
+role,Teacher,3
+point,Before,16
+point,Loop,16
+point,After,19
+evaluation,E1,9
+evaluation,E2,10
+evaluation,E3,1
+evaluation,E4,5

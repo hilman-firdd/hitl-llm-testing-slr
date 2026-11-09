@@ -1,0 +1,9 @@
+publisher_or_source,n_studies,pct
+ACM,9,25.7
+IEEE,9,25.7
+Other (regional/specialist venues),6,17.1
+"IEEE/ACM (joint, e.g. ICSE)",5,14.3
+SBC (Brazilian CS),3,8.6
+Springer,2,5.7
+Elsevier,1,2.9
+-- IEEE or ACM venues (subtotal) --,23,65.7
